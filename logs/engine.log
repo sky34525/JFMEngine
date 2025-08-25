@@ -1,0 +1,1969 @@
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: 日志系统初始化完成
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: === JFM Engine Starting ===
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Creating Application...
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Application构造函数
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: 初始化渲染器...
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: 初始化渲染命令系统...
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: 初始化OpenGL渲染API...
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: OpenGL版本: 4.1 Metal - 90.5
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: OpenGL供应商: Apple
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: OpenGL渲染器: Apple M4
+[2025-08-02 18:31:35] [DEBUG] [0x209db4540] [JFMEngine]: 启用混合模式
+[2025-08-02 18:31:35] [DEBUG] [0x209db4540] [JFMEngine]: 启用深度测试
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: OpenGL渲染API初始化完成
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: 渲染命令系统初始化完成
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: 渲染器初始化完成
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: 渲染系统初始化完成
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Initializing Event System with 2 worker threads
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Event System initialized successfully
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Core事件系统已初始化，使用2个工作线程
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: 事件处理器注册完成
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: GLFW事件回调已设置，事件将通过Core事件系统处理
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: OpenGL版本初始化完成，Core事件系统已启动
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Layer created: Animal Animation Demo
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Initializing PrimitiveLibrary...
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:31:35] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:31:35] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:31:35] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:31:35] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:31:35] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: PrimitiveLibrary initialized successfully
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: SceneFactory initialized
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: ECS World created
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Scene 'Animal Animation Scene' created
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Default systems added to scene 'Animal Animation Scene'
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Scene 'Animal Animation Scene' initialized
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 1
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Created debug camera: Animal Camera
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 2
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Created rendered plane: Ground
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 3
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Created entity 'Directional Light' with ID: 3
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 4
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Created entity 'Point Light' with ID: 4
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: res/model/blackcat.fbx
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: res/model/blackcat.fbx
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: RootNode
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: BlackCat
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing mesh: BlackCat
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Loading texture: res/model/BlackCat.png (type: texture_diffuse)
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: BlackCatRig
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine0
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine01
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine02
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine03
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine04
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: neck
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: head
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear01.L
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.L
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.L_end
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear01.R
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.R
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.R_end
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg01.L
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg02.L
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg03.L
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.L
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.L_end
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg01.R
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg02.R
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg03.R
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.R
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.R_end
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg01.L
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg02.L
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg03.L
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg04.L
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg05.L
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.L
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.L_end
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg01.R
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg02.R
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg03.R
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg04.R
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg05.R
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.R
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.R_end
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail01
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail02
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail03
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: TailEnd
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: Processing node: TailEnd_end
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|IdleAnim' with 36 channels, duration: {:.2f}s
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|IdleAnim
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|SittingPose' with 36 channels, duration: {:.2f}s
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|SittingPose
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|SpookedPose' with 36 channels, duration: {:.2f}s
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|SpookedPose
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|StretchPose' with 30 channels, duration: {:.2f}s
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|StretchPose
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Created animator with default animation: BlackCatRig|IdleAnim
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Model loaded successfully: 1 meshes, 0 materials, 4 animations
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Playing animation index: 0 (BlackCatRig|IdleAnim)
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Animation loop: enabled
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Layer pushed to stack: Animal Animation Demo
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Running Application...
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [JFMEngine]: Application开始运行
+[2025-08-02 18:31:35] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1865.74, 155.322
+[2025-08-02 18:31:35] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1858.01, 154.101
+[2025-08-02 18:31:35] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1853.34, 152.011
+[2025-08-02 18:31:35] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1853.63, 150.671
+[2025-08-02 18:31:35] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1851.03, 150.425
+[2025-08-02 18:31:35] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1846.32, 149.949
+[2025-08-02 18:31:35] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1846.77, 149.488
+[2025-08-02 18:31:35] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1846.06, 147.9
+[2025-08-02 18:31:35] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1848.35, 145.411
+[2025-08-02 18:31:35] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1850.99, 141.812
+[2025-08-02 18:31:35] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1851.98, 139.312
+[2025-08-02 18:31:35] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1852.79, 137.685
+[2025-08-02 18:31:35] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1853.2, 136.059
+[2025-08-02 18:31:35] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1853.48, 135.185
+[2025-08-02 18:31:35] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1854.18, 132.686
+[2025-08-02 18:31:35] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1854.58, 129.938
+[2025-08-02 18:31:35] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1857.69, 128.188
+[2025-08-02 18:31:35] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1857.69, 127.312
+[2025-08-02 18:31:35] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1857.69, 126.438
+[2025-08-02 18:31:35] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1857.69, 125.562
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: MouseMovedEvent: -1857.69, 125.102
+[2025-08-02 18:31:35] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1857.69, 124.871
+[2025-08-02 18:31:35] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1856.88, 123.766
+[2025-08-02 18:31:35] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1852.87, 122.133
+[2025-08-02 18:31:35] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1848.86, 121.609
+[2025-08-02 18:31:35] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1844.96, 121.609
+[2025-08-02 18:31:35] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1838.77, 121.609
+[2025-08-02 18:31:35] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1831.06, 121.609
+[2025-08-02 18:31:35] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1819.53, 122.285
+[2025-08-02 18:31:35] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1808, 123.641
+[2025-08-02 18:31:35] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1783.41, 126.367
+[2025-08-02 18:31:35] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1758.06, 130.473
+[2025-08-02 18:31:35] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1728.13, 136.039
+[2025-08-02 18:31:35] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1713.55, 138.816
+[2025-08-02 18:31:35] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1700.49, 141.562
+[2025-08-02 18:31:35] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1688.2, 143.609
+[2025-08-02 18:31:35] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1665.13, 148.352
+[2025-08-02 18:31:35] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1645.12, 153.676
+[2025-08-02 18:31:35] [TRACE] [0x209db4540] [JFMEngine]: MouseMovedEvent: -1630.46, 157.484
+[2025-08-02 18:31:35] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1625.34, 158.648
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1625.57, 158.418
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1627.47, 156.758
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1626.59, 156.758
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1624.21, 155.805
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1622.58, 155.395
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1606.39, 153.438
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1575.7, 152.75
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1510.19, 152.75
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1461.61, 152.75
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1405.99, 152.75
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -1339.82, 152.75
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -1198.69, 157.859
+[2025-08-02 18:31:36] [TRACE] [0x209db4540] [JFMEngine]: MouseMovedEvent: -1047.01, 173.43
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 697.129, 318.047
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -747.078, 239.652
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -678.184, 258.789
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -609.289, 279.199
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -547.355, 299.016
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -430.445, 334.336
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -326.273, 367.133
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -234.234, 396.305
+[2025-08-02 18:31:36] [TRACE] [0x209db4540] [JFMEngine]: MouseMovedEvent: -198.266, 409.664
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -165.73, 421.492
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -134.91, 434.977
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -81.0391, 459.641
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: -42.4727, 476.336
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: -26.3047, 482.66
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 3.75, 493.141
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 16.8047, 497.262
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 27.6523, 501.328
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 36.8906, 504.625
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 43.9453, 507.387
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 41.8555, 506.977
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 37.7266, 505.863
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 37.7266, 504.234
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 38.3555, 493.387
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 40.3672, 472.613
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 43.1289, 458.793
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 47.3125, 443.445
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 52.9531, 426.516
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 73.0859, 375.977
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 97.8125, 316.039
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 118.824, 260.336
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 132.184, 206.301
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 135.609, 180.586
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 137.258, 156.629
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 137.258, 134.43
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 136.551, 116.793
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 135.852, 101.445
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 134.496, 78.3828
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 132, 65.2461
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 127.543, 58.5625
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 124.203, 55.7773
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 120.125, 53.4453
+[2025-08-02 18:31:36] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 115.465, 51.6953
+[2025-08-02 18:31:36] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 106.145, 47.6133
+[2025-08-02 18:31:37] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 98.7266, 43.0547
+[2025-08-02 18:31:37] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 90.4297, 37.1055
+[2025-08-02 18:31:37] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 86.3516, 34.1914
+[2025-08-02 18:31:37] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 82.2734, 31.2773
+[2025-08-02 18:31:37] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 77.4531, 28.2617
+[2025-08-02 18:31:37] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 72.6328, 25.2461
+[2025-08-02 18:31:37] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 67.9727, 22.9141
+[2025-08-02 18:31:37] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 58.6523, 18.832
+[2025-08-02 18:31:37] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 51.6211, 16.1523
+[2025-08-02 18:31:37] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 48.4883, 15.1055
+[2025-08-02 18:31:37] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 45.3555, 13.5391
+[2025-08-02 18:31:37] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 41.457, 11.8672
+[2025-08-02 18:31:37] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 38.3242, 10.3008
+[2025-08-02 18:31:37] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 35.1914, 8.73438
+[2025-08-02 18:31:37] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 32.6875, 7.33203
+[2025-08-02 18:31:37] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 30.5977, 6.05469
+[2025-08-02 18:31:37] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 29.2617, 5.30078
+[2025-08-02 18:31:37] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 27.6328, 4.48438
+[2025-08-02 18:31:37] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 22.875, 1.01562
+[2025-08-02 18:31:37] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 20.2148, -1.75
+[2025-08-02 18:31:37] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 19.6289, -2.85547
+[2025-08-02 18:31:37] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 19.3984, -3.31641
+[2025-08-02 18:31:37] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 19.3984, -3.77734
+[2025-08-02 18:31:37] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 19.3984, -4.00781
+[2025-08-02 18:31:37] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 19.625, -4.69922
+[2025-08-02 18:31:37] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 19.8516, -4.92969
+[2025-08-02 18:31:37] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 19.8516, -5.39062
+[2025-08-02 18:31:37] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 20.0781, -6.08203
+[2025-08-02 18:31:37] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 20.0781, -6.3125
+[2025-08-02 18:31:37] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 19.8477, -6.77344
+[2025-08-02 18:31:37] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 18.7422, -7.58984
+[2025-08-02 18:31:37] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 18.0508, -8.28125
+[2025-08-02 18:31:37] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 17.3594, -8.97266
+[2025-08-02 18:31:37] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 16.8984, -9.20312
+[2025-08-02 18:31:37] [TRACE] [0x16bc73000] [JFMEngine]: MouseMovedEvent: 16.668, -9.43359
+[2025-08-02 18:31:37] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 16.4375, -9.66406
+[2025-08-02 18:31:37] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 16.4375, -9.89453
+[2025-08-02 18:31:37] [TRACE] [0x16bbe7000] [JFMEngine]: MouseMovedEvent: 16.4375, -10.125
+[2025-08-02 18:31:37] [INFO ] [0x16bbe7000] [JFMEngine]: 收到窗口关闭事件
+[2025-08-02 18:31:37] [INFO ] [0x209db4540] [JFMEngine]: Shutting down...
+[2025-08-02 18:31:37] [INFO ] [0x209db4540] [JFMEngine]: Application析构函数
+[2025-08-02 18:31:37] [INFO ] [0x209db4540] [JFMEngine]: 关闭渲染器...
+[2025-08-02 18:31:37] [INFO ] [0x209db4540] [JFMEngine]: 渲染器已关闭
+[2025-08-02 18:31:37] [INFO ] [0x209db4540] [JFMEngine]: Shutting down Event System...
+[2025-08-02 18:31:37] [INFO ] [0x209db4540] [JFMEngine]: Event System shutdown complete. Processed 135 events, Dropped 0 events
+[2025-08-02 18:31:37] [INFO ] [0x209db4540] [JFMEngine]: PrimitiveLibrary shutdown
+[2025-08-02 18:31:37] [INFO ] [0x209db4540] [JFMEngine]: SceneFactory shutdown
+[2025-08-02 18:31:37] [TRACE] [0x209db4540] [JFMEngine]: Layer detached during clear: Animal Animation Demo
+[2025-08-02 18:31:37] [INFO ] [0x209db4540] [JFMEngine]: ECS World destroyed
+[2025-08-02 18:31:37] [INFO ] [0x209db4540] [JFMEngine]: Scene 'Animal Animation Scene' destroyed
+[2025-08-02 18:31:37] [INFO ] [0x209db4540] [JFMEngine]: LayerStack cleared
+[2025-08-02 18:31:37] [INFO ] [0x209db4540] [JFMEngine]: === JFM Engine Shutdown ===
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: 日志系统初始化完成
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: === JFM Engine Starting ===
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Creating Application...
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Application构造函数
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: 初始化渲染器...
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: 初始化渲染命令系统...
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: 初始化OpenGL渲染API...
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: OpenGL版本: 4.1 Metal - 90.5
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: OpenGL供应商: Apple
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: OpenGL渲染器: Apple M4
+[2025-08-02 18:34:49] [DEBUG] [0x209db4540] [JFMEngine]: 启用混合模式
+[2025-08-02 18:34:49] [DEBUG] [0x209db4540] [JFMEngine]: 启用深度测试
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: OpenGL渲染API初始化完成
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: 渲染命令系统初始化完成
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: 渲染器初始化完成
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: 渲染系统初始化完成
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Initializing Event System with 2 worker threads
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Event System initialized successfully
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Core事件系统已初始化，使用2个工作线程
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: 事件处理器注册完成
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: GLFW事件回调已设置，事件将通过Core事件系统处理
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: OpenGL版本初始化完成，Core事件系统已启动
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Layer created: Animal Animation Demo
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Initializing PrimitiveLibrary...
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:34:49] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:34:49] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:34:49] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:34:49] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:34:49] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: PrimitiveLibrary initialized successfully
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: SceneFactory initialized
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: ECS World created
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Scene 'Animal Animation Scene' created
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Default systems added to scene 'Animal Animation Scene'
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Scene 'Animal Animation Scene' initialized
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 1
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Created debug camera: Animal Camera
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 2
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Created rendered plane: Ground
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 3
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Created entity 'Directional Light' with ID: 3
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 4
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Created entity 'Point Light' with ID: 4
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: res/model/blackcat.fbx
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: res/model/blackcat.fbx
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: RootNode
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: BlackCat
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing mesh: BlackCat
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Loading texture: res/model/BlackCat.png (type: texture_diffuse)
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: BlackCatRig
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine0
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine01
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine02
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine03
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine04
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: neck
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: head
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear01.L
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.L
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.L_end
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear01.R
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.R
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.R_end
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg01.L
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg02.L
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg03.L
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.L
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.L_end
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg01.R
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg02.R
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg03.R
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.R
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.R_end
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg01.L
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg02.L
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg03.L
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg04.L
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg05.L
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.L
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.L_end
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg01.R
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg02.R
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg03.R
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg04.R
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg05.R
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.R
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.R_end
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail01
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail02
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail03
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: TailEnd
+[2025-08-02 18:34:49] [TRACE] [0x209db4540] [JFMEngine]: Processing node: TailEnd_end
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|IdleAnim' with 36 channels, duration: {:.2f}s
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|IdleAnim
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|SittingPose' with 36 channels, duration: {:.2f}s
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|SittingPose
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|SpookedPose' with 36 channels, duration: {:.2f}s
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|SpookedPose
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|StretchPose' with 30 channels, duration: {:.2f}s
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|StretchPose
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Created animator with default animation: BlackCatRig|IdleAnim
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Model loaded successfully: 1 meshes, 0 materials, 4 animations
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Playing animation index: 0 (BlackCatRig|IdleAnim)
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Animation loop: enabled
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Layer pushed to stack: Animal Animation Demo
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Running Application...
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [JFMEngine]: Application开始运行
+[2025-08-02 18:34:49] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: -2018.98, 195.09
+[2025-08-02 18:34:49] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: -2018.52, 195.316
+[2025-08-02 18:34:49] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: -2018.29, 195.316
+[2025-08-02 18:34:49] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: -2018.05, 195.316
+[2025-08-02 18:34:49] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: -2017.18, 195.316
+[2025-08-02 18:34:49] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: -2014.05, 195.316
+[2025-08-02 18:34:49] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: -2013.17, 195.316
+[2025-08-02 18:34:49] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: -2010.79, 195.316
+[2025-08-02 18:34:49] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: -2005.37, 195.316
+[2025-08-02 18:34:49] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: -1983.07, 198.004
+[2025-08-02 18:34:49] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: -1937.95, 202.773
+[2025-08-02 18:34:49] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: -1861.9, 208.906
+[2025-08-02 18:34:49] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: -1811.56, 213.48
+[2025-08-02 18:34:49] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: -1750.66, 217.133
+[2025-08-02 18:34:49] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: -1675.7, 221.008
+[2025-08-02 18:34:49] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: -1591.94, 227.652
+[2025-08-02 18:34:49] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: -1495.87, 237.258
+[2025-08-02 18:34:49] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: -1287.07, 262.355
+[2025-08-02 18:34:49] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: -1069.4, 287.961
+[2025-08-02 18:34:49] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: -959.082, 298.102
+[2025-08-02 18:34:49] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: -850.246, 307.062
+[2025-08-02 18:34:49] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: -742.148, 314.781
+[2025-08-02 18:34:49] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: -637.75, 320.066
+[2025-08-02 18:34:49] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: -537.047, 322.785
+[2025-08-02 18:34:49] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: -358.988, 325.48
+[2025-08-02 18:34:49] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: -230.176, 325.48
+[2025-08-02 18:34:49] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: -161.16, 325.48
+[2025-08-02 18:34:49] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: -145.816, 324.781
+[2025-08-02 18:34:49] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: -145.234, 323.906
+[2025-08-02 18:34:49] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: -147.141, 322
+[2025-08-02 18:34:49] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: -147.141, 321.77
+[2025-08-02 18:34:49] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: -147.371, 321.539
+[2025-08-02 18:34:49] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: -148.664, 317.527
+[2025-08-02 18:34:49] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: -147.102, 314.395
+[2025-08-02 18:34:49] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: -145.539, 311.262
+[2025-08-02 18:34:49] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: -142.641, 301.941
+[2025-08-02 18:34:49] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: -137.512, 286.516
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: -129.508, 267.188
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: -117.258, 245.406
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: -99.1289, 219.598
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: -75.6328, 191.117
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: -59.9414, 172.117
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: -34.1055, 141.848
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: -13.0977, 115.93
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 3.52344, 92.3789
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 13.668, 72.1133
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 16.9258, 64.2891
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 18.7891, 51.918
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 20.0234, 39.543
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 22.3906, 29.4609
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 25.2461, 20.9023
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 29.3203, 11.582
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 36.3047, -0.652344
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 45.2383, -14.3711
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 48.1484, -18.4492
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 52.8047, -26.6055
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 54.5508, -31.2656
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 512.328, 72.9375
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 60.4531, -45.3281
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 63.4414, -50.8438
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 65.8164, -55.6094
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 66.043, -55.8398
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 66.043, -56.3008
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 66.2695, -56.5312
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 66.0391, -56.5312
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 65.5781, -56.3047
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 64.7031, -55.7227
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 63.8281, -55.1406
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 62.9531, -54.5586
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 61.3242, -53.7461
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 60.4492, -53.1641
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 59.5742, -52.582
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 55.7617, -49.2539
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 52.6328, -46.1328
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 49.8477, -42.7969
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 47.7578, -40.1875
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 44.9727, -37.4062
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 43.543, -35.5039
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 41.6367, -33.6016
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 36.0664, -27.4844
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 29.7852, -21.2109
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 26.2891, -17.7188
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 23.5039, -14.9375
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 20.7188, -12.1562
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 18.1055, -10.0703
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 17.6445, -9.84375
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 17.1836, -9.61719
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 16.9531, -9.61719
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 16.7227, -9.61719
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 16.4922, -9.61719
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 16.2617, -9.61719
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 16.0312, -9.61719
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 15.5703, -9.61719
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 15.3398, -9.61719
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 15.1094, -9.61719
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 14.8789, -9.61719
+[2025-08-02 18:34:50] [TRACE] [0x16f8fb000] [JFMEngine]: MouseMovedEvent: 14.418, -9.39062
+[2025-08-02 18:34:50] [TRACE] [0x16f86f000] [JFMEngine]: MouseMovedEvent: 14.1875, -9.39062
+[2025-08-02 18:34:50] [INFO ] [0x16f86f000] [JFMEngine]: 收到窗口关闭事件
+[2025-08-02 18:34:50] [INFO ] [0x209db4540] [JFMEngine]: Shutting down...
+[2025-08-02 18:34:50] [INFO ] [0x209db4540] [JFMEngine]: Application析构函数
+[2025-08-02 18:34:50] [INFO ] [0x209db4540] [JFMEngine]: 关闭渲染器...
+[2025-08-02 18:34:50] [INFO ] [0x209db4540] [JFMEngine]: 渲染器已关闭
+[2025-08-02 18:34:50] [INFO ] [0x209db4540] [JFMEngine]: Shutting down Event System...
+[2025-08-02 18:34:50] [INFO ] [0x209db4540] [JFMEngine]: Event System shutdown complete. Processed 99 events, Dropped 0 events
+[2025-08-02 18:34:50] [INFO ] [0x209db4540] [JFMEngine]: PrimitiveLibrary shutdown
+[2025-08-02 18:34:50] [INFO ] [0x209db4540] [JFMEngine]: SceneFactory shutdown
+[2025-08-02 18:34:50] [TRACE] [0x209db4540] [JFMEngine]: Layer detached during clear: Animal Animation Demo
+[2025-08-02 18:34:50] [INFO ] [0x209db4540] [JFMEngine]: LayerStack cleared
+[2025-08-02 18:34:50] [INFO ] [0x209db4540] [JFMEngine]: === JFM Engine Shutdown ===
+[2025-08-02 18:34:50] [INFO ] [0x209db4540] [JFMEngine]: ECS World destroyed
+[2025-08-02 18:34:50] [INFO ] [0x209db4540] [JFMEngine]: Scene 'Animal Animation Scene' destroyed
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: 日志系统初始化完成
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: === JFM Engine Starting ===
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Creating Application...
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Application构造函数
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: 初始化渲染器...
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: 初始化渲染命令系统...
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: 初始化OpenGL渲染API...
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: OpenGL版本: 4.1 Metal - 90.5
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: OpenGL供应商: Apple
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: OpenGL渲染器: Apple M4
+[2025-08-02 18:36:28] [DEBUG] [0x209db4540] [JFMEngine]: 启用混合模式
+[2025-08-02 18:36:28] [DEBUG] [0x209db4540] [JFMEngine]: 启用深度测试
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: OpenGL渲染API初始化完成
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: 渲染命令系统初始化完成
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: 渲染器初始化完成
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: 渲染系统初始化完成
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Initializing Event System with 2 worker threads
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Event System initialized successfully
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Core事件系统已初始化，使用2个工作线程
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: 事件处理器注册完成
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: GLFW事件回调已设置，事件将通过Core事件系统处理
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: OpenGL版本初始化完成，Core事件系统已启动
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Layer created: Animal Animation Demo
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Initializing PrimitiveLibrary...
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:36:28] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:36:28] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:36:28] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:36:28] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:36:28] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: PrimitiveLibrary initialized successfully
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: SceneFactory initialized
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: ECS World created
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Scene 'Animal Animation Scene' created
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Default systems added to scene 'Animal Animation Scene'
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Scene 'Animal Animation Scene' initialized
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 1
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Created debug camera: Animal Camera
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 2
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Created rendered plane: Ground
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 3
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Created entity 'Directional Light' with ID: 3
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 4
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Created entity 'Point Light' with ID: 4
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: res/model/blackcat.fbx
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: res/model/blackcat.fbx
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: RootNode
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: BlackCat
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing mesh: BlackCat
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Loading texture: res/model/BlackCat.png (type: texture_diffuse)
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: BlackCatRig
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine0
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine01
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine02
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine03
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine04
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: neck
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: head
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear01.L
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.L
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.L_end
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear01.R
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.R
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.R_end
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg01.L
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg02.L
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg03.L
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.L
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.L_end
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg01.R
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg02.R
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg03.R
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.R
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.R_end
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg01.L
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg02.L
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg03.L
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg04.L
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg05.L
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.L
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.L_end
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg01.R
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg02.R
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg03.R
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg04.R
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg05.R
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.R
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.R_end
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail01
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail02
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail03
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: TailEnd
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: Processing node: TailEnd_end
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|IdleAnim' with 36 channels, duration: {:.2f}s
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|IdleAnim
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|SittingPose' with 36 channels, duration: {:.2f}s
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|SittingPose
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|SpookedPose' with 36 channels, duration: {:.2f}s
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|SpookedPose
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|StretchPose' with 30 channels, duration: {:.2f}s
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|StretchPose
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Created animator with default animation: BlackCatRig|IdleAnim
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Model loaded successfully: 1 meshes, 0 materials, 4 animations
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Playing animation index: 0 (BlackCatRig|IdleAnim)
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Animation loop: enabled
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Layer pushed to stack: Animal Animation Demo
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Running Application...
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [JFMEngine]: Application开始运行
+[2025-08-02 18:36:28] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: -116.156, 494.09
+[2025-08-02 18:36:28] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: -120.18, 498.701
+[2025-08-02 18:36:28] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: -107.722, 503.835
+[2025-08-02 18:36:28] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: -93.6044, 511.475
+[2025-08-02 18:36:28] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: -73.5924, 523.227
+[2025-08-02 18:36:28] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: -51.8484, 534.736
+[2025-08-02 18:36:28] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: -40.3434, 540.484
+[2025-08-02 18:36:28] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: -29.4822, 545.906
+[2025-08-02 18:36:28] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 9.52734, 557.57
+[2025-08-02 18:36:28] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 33.8015, 560.973
+[2025-08-02 18:36:28] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 53.7765, 561.862
+[2025-08-02 18:36:28] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 60.7132, 561.862
+[2025-08-02 18:36:28] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 65.3636, 561.862
+[2025-08-02 18:36:28] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 65.5899, 561.862
+[2025-08-02 18:36:28] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 65.4609, 561.426
+[2025-08-02 18:36:28] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 66.6797, 560.203
+[2025-08-02 18:36:28] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 71.625, 557.285
+[2025-08-02 18:36:28] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 96.6094, 544.16
+[2025-08-02 18:36:28] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 117.02, 530.543
+[2025-08-02 18:36:28] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 136.195, 513.414
+[2025-08-02 18:36:28] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 164.246, 487.406
+[2025-08-02 18:36:28] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 184.227, 468.797
+[2025-08-02 18:36:28] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 200.434, 451.906
+[2025-08-02 18:36:28] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 219.699, 428.637
+[2025-08-02 18:36:28] [TRACE] [0x209db4540] [JFMEngine]: MouseMovedEvent: 224.914, 421.465
+[2025-08-02 18:36:28] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 229.477, 414.293
+[2025-08-02 18:36:28] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 234.039, 406.469
+[2025-08-02 18:36:28] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 241.234, 380.164
+[2025-08-02 18:36:28] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 241.891, 360.918
+[2025-08-02 18:36:28] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 238.523, 339.387
+[2025-08-02 18:36:28] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 235.129, 327.855
+[2025-08-02 18:36:28] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 226.164, 301.668
+[2025-08-02 18:36:28] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 214.445, 276.859
+[2025-08-02 18:36:28] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 200.016, 254.18
+[2025-08-02 18:36:28] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 182.785, 232.816
+[2025-08-02 18:36:28] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 166.516, 215.18
+[2025-08-02 18:36:28] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 153.469, 202.793
+[2025-08-02 18:36:28] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 139.621, 193.129
+[2025-08-02 18:36:28] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 136.777, 191.469
+[2025-08-02 18:36:28] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 136.547, 191.469
+[2025-08-02 18:36:29] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 136.547, 192.34
+[2025-08-02 18:36:29] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 131.938, 200.457
+[2025-08-02 18:36:29] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 128.465, 205.488
+[2025-08-02 18:36:29] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 126.312, 209.488
+[2025-08-02 18:36:29] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 126.312, 209.945
+[2025-08-02 18:36:29] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 126.539, 209.945
+[2025-08-02 18:36:29] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 126.309, 209.484
+[2025-08-02 18:36:29] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 117.527, 191.445
+[2025-08-02 18:36:29] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 104.469, 168.078
+[2025-08-02 18:36:29] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 86.9609, 140.059
+[2025-08-02 18:36:29] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 69.3242, 109.02
+[2025-08-02 18:36:29] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 55.3672, 81.1133
+[2025-08-02 18:36:29] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 42.5312, 49.4102
+[2025-08-02 18:36:29] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 38.793, 36.2734
+[2025-08-02 18:36:29] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 36.457, 26.9531
+[2025-08-02 18:36:29] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 35.3398, 19.1562
+[2025-08-02 18:36:29] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 33.3398, 13.6406
+[2025-08-02 18:36:29] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 31.8633, 9.92188
+[2025-08-02 18:36:29] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 31.8633, 8.81641
+[2025-08-02 18:36:29] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 31.8633, 8.58594
+[2025-08-02 18:36:29] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 31.5703, 7.71094
+[2025-08-02 18:36:29] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 31.5703, 7.48047
+[2025-08-02 18:36:29] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 31.3398, 7.01953
+[2025-08-02 18:36:29] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 31.3398, 6.78906
+[2025-08-02 18:36:29] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 30.8164, 5.45312
+[2025-08-02 18:36:29] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 29.6445, 3.70312
+[2025-08-02 18:36:29] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 26.6914, 0.460938
+[2025-08-02 18:36:29] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 23.3555, -3.35156
+[2025-08-02 18:36:29] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 22.3086, -4.6875
+[2025-08-02 18:36:29] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 21.8477, -5.14844
+[2025-08-02 18:36:29] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 21.8477, -5.37891
+[2025-08-02 18:36:29] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 21.6172, -5.60938
+[2025-08-02 18:36:29] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 21.6172, -5.83984
+[2025-08-02 18:36:29] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 21.6172, -6.07031
+[2025-08-02 18:36:29] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 21.3867, -6.30078
+[2025-08-02 18:36:29] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 20.5117, -6.59375
+[2025-08-02 18:36:29] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 17.2539, -8.13281
+[2025-08-02 18:36:29] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 13.9961, -10.1484
+[2025-08-02 18:36:29] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 11.7852, -11.7812
+[2025-08-02 18:36:29] [TRACE] [0x16f4c3000] [JFMEngine]: MouseMovedEvent: 11.0938, -12.2422
+[2025-08-02 18:36:29] [TRACE] [0x16f437000] [JFMEngine]: MouseMovedEvent: 11.0938, -12.4727
+[2025-08-02 18:36:29] [INFO ] [0x16f4c3000] [JFMEngine]: 收到窗口关闭事件
+[2025-08-02 18:36:29] [INFO ] [0x209db4540] [JFMEngine]: Shutting down...
+[2025-08-02 18:36:29] [INFO ] [0x209db4540] [JFMEngine]: Application析构函数
+[2025-08-02 18:36:29] [INFO ] [0x209db4540] [JFMEngine]: 关闭渲染器...
+[2025-08-02 18:36:29] [INFO ] [0x209db4540] [JFMEngine]: 渲染器已关闭
+[2025-08-02 18:36:29] [INFO ] [0x209db4540] [JFMEngine]: Shutting down Event System...
+[2025-08-02 18:36:29] [INFO ] [0x209db4540] [JFMEngine]: Event System shutdown complete. Processed 82 events, Dropped 0 events
+[2025-08-02 18:36:29] [INFO ] [0x209db4540] [JFMEngine]: PrimitiveLibrary shutdown
+[2025-08-02 18:36:29] [INFO ] [0x209db4540] [JFMEngine]: SceneFactory shutdown
+[2025-08-02 18:36:29] [TRACE] [0x209db4540] [JFMEngine]: Layer detached during clear: Animal Animation Demo
+[2025-08-02 18:36:29] [INFO ] [0x209db4540] [JFMEngine]: LayerStack cleared
+[2025-08-02 18:36:29] [INFO ] [0x209db4540] [JFMEngine]: === JFM Engine Shutdown ===
+[2025-08-02 18:36:29] [INFO ] [0x209db4540] [JFMEngine]: ECS World destroyed
+[2025-08-02 18:36:29] [INFO ] [0x209db4540] [JFMEngine]: Scene 'Animal Animation Scene' destroyed
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: 日志系统初始化完成
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: === JFM Engine Starting ===
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Creating Application...
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Application构造函数
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: 初始化渲染器...
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: 初始化渲染命令系统...
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: 初始化OpenGL渲染API...
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: OpenGL版本: 4.1 Metal - 90.5
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: OpenGL供应商: Apple
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: OpenGL渲染器: Apple M4
+[2025-08-02 18:38:57] [DEBUG] [0x209db4540] [JFMEngine]: 启用混合模式
+[2025-08-02 18:38:57] [DEBUG] [0x209db4540] [JFMEngine]: 启用深度测试
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: OpenGL渲染API初始化完成
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: 渲染命令系统初始化完成
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: 渲染器初始化完成
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: 渲染系统初始化完成
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Initializing Event System with 2 worker threads
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Event System initialized successfully
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Core事件系统已初始化，使用2个工作线程
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: 事件处理器注册完成
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: GLFW事件回调已设置，事件将通过Core事件系统处理
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: OpenGL版本初始化完成，Core事件系统已启动
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Layer created: Animal Animation Demo
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Initializing PrimitiveLibrary...
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:38:57] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:38:57] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:38:57] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:38:57] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:38:57] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: PrimitiveLibrary initialized successfully
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: SceneFactory initialized
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: ECS World created
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Scene 'Animal Animation Scene' created
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Default systems added to scene 'Animal Animation Scene'
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Scene 'Animal Animation Scene' initialized
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 1
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Created debug camera: Animal Camera
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 2
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Created rendered plane: Ground
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 3
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Created entity 'Directional Light' with ID: 3
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 4
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Created entity 'Point Light' with ID: 4
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: res/model/blackcat.fbx
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: res/model/blackcat.fbx
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: RootNode
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: BlackCat
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing mesh: BlackCat
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Loading texture: res/model/BlackCat.png (type: texture_diffuse)
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: BlackCatRig
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine0
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine01
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine02
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine03
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine04
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: neck
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: head
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear01.L
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.L
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.L_end
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear01.R
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.R
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.R_end
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg01.L
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg02.L
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg03.L
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.L
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.L_end
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg01.R
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg02.R
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg03.R
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.R
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.R_end
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg01.L
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg02.L
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg03.L
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg04.L
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg05.L
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.L
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.L_end
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg01.R
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg02.R
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg03.R
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg04.R
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg05.R
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.R
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.R_end
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail01
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail02
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail03
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: TailEnd
+[2025-08-02 18:38:57] [TRACE] [0x209db4540] [JFMEngine]: Processing node: TailEnd_end
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|IdleAnim' with 36 channels, duration: {:.2f}s
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|IdleAnim
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|SittingPose' with 36 channels, duration: {:.2f}s
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|SittingPose
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|SpookedPose' with 36 channels, duration: {:.2f}s
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|SpookedPose
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|StretchPose' with 30 channels, duration: {:.2f}s
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|StretchPose
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Created animator with default animation: BlackCatRig|IdleAnim
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Model loaded successfully: 1 meshes, 0 materials, 4 animations
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Playing animation index: 0 (BlackCatRig|IdleAnim)
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Animation loop: enabled
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Layer pushed to stack: Animal Animation Demo
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Running Application...
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [JFMEngine]: Application开始运行
+[2025-08-02 18:38:57] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 915.879, 332.371
+[2025-08-02 18:38:57] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 939.215, 354.996
+[2025-08-02 18:38:57] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 950.574, 362.284
+[2025-08-02 18:38:57] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 952.352, 377.606
+[2025-08-02 18:38:57] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 950.912, 385.072
+[2025-08-02 18:38:57] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 949.615, 400.593
+[2025-08-02 18:38:57] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 941.499, 420.377
+[2025-08-02 18:38:57] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 926.146, 448.865
+[2025-08-02 18:38:57] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 915.18, 468.422
+[2025-08-02 18:38:57] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 900.562, 494
+[2025-08-02 18:38:57] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 883.223, 521.934
+[2025-08-02 18:38:57] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 864.488, 551.512
+[2025-08-02 18:38:57] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 845.197, 580.621
+[2025-08-02 18:38:57] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 803.94, 640.97
+[2025-08-02 18:38:57] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 762.683, 701.319
+[2025-08-02 18:38:57] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 743.972, 730.85
+[2025-08-02 18:38:57] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 726.654, 759.699
+[2025-08-02 18:38:57] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 712.956, 781.949
+[2025-08-02 18:38:57] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 703.09, 796.737
+[2025-08-02 18:38:57] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 693.336, 808.574
+[2025-08-02 18:38:57] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 676.619, 821.967
+[2025-08-02 18:38:57] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 662.734, 824.77
+[2025-08-02 18:38:57] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 659.164, 823.098
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 659.164, 822.637
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 659.164, 821.762
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 659.277, 819.258
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 661.285, 816.477
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 663.371, 813.863
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 664.797, 811.48
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 665.086, 810.605
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 666.195, 806.707
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 666.824, 799.758
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 665.457, 777.461
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 659.578, 741.672
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 645.414, 694.641
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 636.551, 668.051
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 626.5, 639.73
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 615.535, 612.324
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 587.297, 544.84
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 556.406, 480.039
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 538.27, 447.801
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 521.508, 417.234
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 501.355, 387.008
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 483.512, 360.711
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 464.727, 335.352
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 446.453, 312.512
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 431.023, 291.938
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 407.559, 257.895
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 388.359, 227.32
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 379.988, 214.066
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 371.652, 201.566
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 364.82, 190.637
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 357.988, 180.391
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 351.84, 169.461
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 346.457, 160.039
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 341.121, 151.367
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 331.219, 134.863
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 326, 127.691
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 319.332, 119.688
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 312.73, 113.086
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 305.559, 107.867
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 297.734, 103.301
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 290.562, 98.7344
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 283.492, 94.875
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 267.844, 87.0469
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 250.68, 77.8047
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 242.098, 73.1836
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 233.426, 67.8477
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 222.496, 61.0156
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 211.566, 54.1836
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 200.637, 47.3516
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 188.199, 40.4414
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 176.516, 33.5703
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 164.832, 27.3828
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 153.148, 21.1953
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 143.812, 16.5273
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 136.742, 12.668
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 130.422, 9.50781
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 125.762, 7.17578
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 121.684, 4.84375
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 117.023, 3.09375
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 113.125, 1.42188
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 105.328, -0.804688
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 99.9062, -2.01172
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 93.7188, -2.63281
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 86.0039, -3.27734
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 79.0547, -3.91016
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 72.1055, -3.91016
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 65.918, -4.53125
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 61.2578, -4.53125
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 56.5977, -4.53125
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 52.6992, -5.08984
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 49.5664, -5.08984
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 47.1836, -5.08984
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 45.5547, -5.08984
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 44.6797, -5.08984
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 42.9297, -5.08984
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 42.0547, -5.08984
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 41.1797, -5.08984
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 39.8438, -5.08984
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 37.3398, -5.08984
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 36.4648, -5.08984
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 35.5898, -5.38281
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 33.9609, -5.38281
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 33.5, -5.38281
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 32.625, -5.96875
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 32.1641, -6.19922
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 31.7031, -6.42969
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 29.1992, -7.42578
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 27.5703, -7.83594
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 26.6953, -8.12891
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 23.5625, -9.17578
+[2025-08-02 18:38:58] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 22.6875, -9.46875
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 22.2266, -9.69922
+[2025-08-02 18:38:58] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 21.3516, -9.69922
+[2025-08-02 18:38:59] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 21.3516, -9.92969
+[2025-08-02 18:38:59] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 21.1211, -9.92969
+[2025-08-02 18:38:59] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 20.6602, -10.1602
+[2025-08-02 18:38:59] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 20.4297, -10.1602
+[2025-08-02 18:38:59] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 20.1992, -10.1602
+[2025-08-02 18:38:59] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 19.9688, -10.3906
+[2025-08-02 18:38:59] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 19.7383, -10.3906
+[2025-08-02 18:38:59] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 19.5078, -10.3906
+[2025-08-02 18:38:59] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 19.2773, -10.3906
+[2025-08-02 18:38:59] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 19.0469, -10.3906
+[2025-08-02 18:38:59] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 18.8164, -10.6211
+[2025-08-02 18:38:59] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 18.5859, -10.6211
+[2025-08-02 18:38:59] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 18.3555, -10.8516
+[2025-08-02 18:38:59] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 17.8945, -10.8516
+[2025-08-02 18:38:59] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 17.4336, -11.082
+[2025-08-02 18:38:59] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 16.9727, -11.082
+[2025-08-02 18:38:59] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 16.0977, -11.082
+[2025-08-02 18:38:59] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 15.6367, -11.3125
+[2025-08-02 18:38:59] [TRACE] [0x16dabf000] [JFMEngine]: MouseMovedEvent: 14.5312, -11.3125
+[2025-08-02 18:38:59] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 13.6562, -11.6055
+[2025-08-02 18:38:59] [TRACE] [0x16db4b000] [JFMEngine]: MouseMovedEvent: 13.6562, -11.8359
+[2025-08-02 18:38:59] [INFO ] [0x16dabf000] [JFMEngine]: 收到窗口关闭事件
+[2025-08-02 18:38:59] [INFO ] [0x209db4540] [JFMEngine]: Shutting down...
+[2025-08-02 18:38:59] [INFO ] [0x209db4540] [JFMEngine]: Application析构函数
+[2025-08-02 18:38:59] [INFO ] [0x209db4540] [JFMEngine]: 关闭渲染器...
+[2025-08-02 18:38:59] [INFO ] [0x209db4540] [JFMEngine]: 渲染器已关闭
+[2025-08-02 18:38:59] [INFO ] [0x209db4540] [JFMEngine]: Shutting down Event System...
+[2025-08-02 18:38:59] [INFO ] [0x209db4540] [JFMEngine]: Event System shutdown complete. Processed 137 events, Dropped 0 events
+[2025-08-02 18:38:59] [INFO ] [0x209db4540] [JFMEngine]: PrimitiveLibrary shutdown
+[2025-08-02 18:38:59] [INFO ] [0x209db4540] [JFMEngine]: SceneFactory shutdown
+[2025-08-02 18:38:59] [TRACE] [0x209db4540] [JFMEngine]: Layer detached during clear: Animal Animation Demo
+[2025-08-02 18:38:59] [INFO ] [0x209db4540] [JFMEngine]: LayerStack cleared
+[2025-08-02 18:38:59] [INFO ] [0x209db4540] [JFMEngine]: === JFM Engine Shutdown ===
+[2025-08-02 18:38:59] [INFO ] [0x209db4540] [JFMEngine]: ECS World destroyed
+[2025-08-02 18:38:59] [INFO ] [0x209db4540] [JFMEngine]: Scene 'Animal Animation Scene' destroyed
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: 日志系统初始化完成
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: === JFM Engine Starting ===
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Creating Application...
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Application构造函数
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: 初始化渲染器...
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: 初始化渲染命令系统...
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: 初始化OpenGL渲染API...
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: OpenGL版本: 4.1 Metal - 90.5
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: OpenGL供应商: Apple
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: OpenGL渲染器: Apple M4
+[2025-08-02 18:40:14] [DEBUG] [0x209db4540] [JFMEngine]: 启用混合模式
+[2025-08-02 18:40:14] [DEBUG] [0x209db4540] [JFMEngine]: 启用深度测试
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: OpenGL渲染API初始化完成
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: 渲染命令系统初始化完成
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: 渲染器初始化完成
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: 渲染系统初始化完成
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Initializing Event System with 2 worker threads
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Event System initialized successfully
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Core事件系统已初始化，使用2个工作线程
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: 事件处理器注册完成
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: GLFW事件回调已设置，事件将通过Core事件系统处理
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: OpenGL版本初始化完成，Core事件系统已启动
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Layer created: Animal Animation Demo
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Initializing PrimitiveLibrary...
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:40:14] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:40:14] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:40:14] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:40:14] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:40:14] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: PrimitiveLibrary initialized successfully
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: SceneFactory initialized
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: ECS World created
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Scene 'Animal Animation Scene' created
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Default systems added to scene 'Animal Animation Scene'
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Scene 'Animal Animation Scene' initialized
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 1
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Created debug camera: Animal Camera
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 2
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Created rendered plane: Ground
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 3
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Created entity 'Directional Light' with ID: 3
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 4
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Created entity 'Point Light' with ID: 4
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: res/model/blackcat.fbx
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: res/model/blackcat.fbx
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: RootNode
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: BlackCat
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing mesh: BlackCat
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Loading texture: res/model/BlackCat.png (type: texture_diffuse)
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: BlackCatRig
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine0
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine01
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine02
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine03
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine04
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: neck
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: head
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear01.L
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.L
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.L_end
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear01.R
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.R
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.R_end
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg01.L
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg02.L
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg03.L
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.L
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.L_end
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg01.R
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg02.R
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg03.R
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.R
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.R_end
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg01.L
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg02.L
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg03.L
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg04.L
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg05.L
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.L
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.L_end
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg01.R
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg02.R
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg03.R
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg04.R
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg05.R
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.R
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.R_end
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail01
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail02
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail03
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: TailEnd
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: Processing node: TailEnd_end
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|IdleAnim' with 36 channels, duration: {:.2f}s
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|IdleAnim
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|SittingPose' with 36 channels, duration: {:.2f}s
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|SittingPose
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|SpookedPose' with 36 channels, duration: {:.2f}s
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|SpookedPose
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|StretchPose' with 30 channels, duration: {:.2f}s
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|StretchPose
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Created animator with default animation: BlackCatRig|IdleAnim
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Model loaded successfully: 1 meshes, 0 materials, 4 animations
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Playing animation index: 0 (BlackCatRig|IdleAnim)
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Animation loop: enabled
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Layer pushed to stack: Animal Animation Demo
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Running Application...
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [JFMEngine]: Application开始运行
+[2025-08-02 18:40:14] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 234.066, 616.965
+[2025-08-02 18:40:14] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 233.605, 617.422
+[2025-08-02 18:40:14] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 236.419, 615.332
+[2025-08-02 18:40:14] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 238.996, 612.547
+[2025-08-02 18:40:14] [TRACE] [0x209db4540] [JFMEngine]: MouseMovedEvent: 239.945, 610.164
+[2025-08-02 18:40:14] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 240.172, 610.164
+[2025-08-02 18:40:14] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 240.172, 609.934
+[2025-08-02 18:40:14] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 239.941, 609.934
+[2025-08-02 18:40:14] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 239.711, 609.703
+[2025-08-02 18:40:14] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 239.25, 609.473
+[2025-08-02 18:40:14] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 238.789, 608.781
+[2025-08-02 18:40:14] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 238.789, 608.551
+[2025-08-02 18:40:14] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 239.016, 608.09
+[2025-08-02 18:40:14] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 239.598, 607.215
+[2025-08-02 18:40:14] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 241.684, 604.602
+[2025-08-02 18:40:14] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 243.906, 601.262
+[2025-08-02 18:40:14] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 246.816, 597.184
+[2025-08-02 18:40:14] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 249.727, 593.105
+[2025-08-02 18:40:14] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 257.305, 580.465
+[2025-08-02 18:40:14] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 267.145, 565.371
+[2025-08-02 18:40:14] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 273.926, 555.875
+[2025-08-02 18:40:14] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 281.523, 544.129
+[2025-08-02 18:40:14] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 290.625, 530.82
+[2025-08-02 18:40:14] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 298.992, 517.566
+[2025-08-02 18:40:14] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 308.094, 504.258
+[2025-08-02 18:40:14] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 317.16, 491.699
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 326.262, 478.391
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 345.383, 449.305
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 354.551, 433.785
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 362.223, 419.832
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 369.164, 406.637
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 375.379, 394.199
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 380.801, 383.348
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 386.223, 373.172
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 390.133, 365.348
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 394.867, 355.266
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 397.578, 348.234
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 397.867, 347.359
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 398.094, 347.359
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 398.094, 346.898
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 398.32, 346.898
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 398.09, 346.898
+[2025-08-02 18:40:15] [TRACE] [0x209db4540] [JFMEngine]: MouseMovedEvent: 395.707, 346.898
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 393.324, 345.945
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 389.246, 343.613
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 383.676, 340.52
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 366.109, 325.656
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 354.25, 315.191
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 339.879, 302.977
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 318.605, 285.25
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 293.559, 264.059
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 261.602, 237.426
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 229.645, 209.727
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 195.57, 178.949
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 159.418, 146.184
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 93.3867, 88.8086
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 45.7969, 45.0078
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 31.4258, 32.0742
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 18.8164, 21.5664
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 9.19531, 12.6328
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 1.85938, 5.29688
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: -3.28516, -0.488281
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 445.914, 103.352
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: -12.7422, -14.3711
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: -14.1719, -16.7539
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: -15.3945, -17.9766
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: -15.9805, -18.8516
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: -16.8555, -19.4375
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: -17.7305, -20.0234
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: -18.6055, -20.6094
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: -19.0664, -21.0703
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: -20.1719, -21.8867
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: -23.543, -25.5469
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: -25.6328, -28.1602
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: -27.5391, -30.0664
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: -28.7617, -31.2891
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: -30.8516, -33.9023
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: -31.3125, -34.3633
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: -31.8984, -35.2383
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: -31.6719, -35.2383
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: -29.5898, -35.2383
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: -26.3398, -34.7656
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: -23.2109, -34.2461
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: -20.082, -33.2031
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: -16.9531, -31.6406
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: -12.8789, -29.3125
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: -9.75, -27.75
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: -7.14062, -25.6641
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: -4.76172, -24.2383
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: -1.92578, -22.3555
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: -0.0234375, -20.9297
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 0.265625, -20.0586
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 0.722656, -19.6016
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 1.30469, -18.7305
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 1.76172, -18.2734
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 1.98828, -17.8164
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 2.21484, -17.3594
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 2.44141, -16.6758
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 2.66797, -16.2227
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 2.66797, -15.9961
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 2.89453, -15.9961
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 3.12109, -15.7695
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 3.57812, -15.7695
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 4.03516, -15.543
+[2025-08-02 18:40:15] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 4.71875, -15.543
+[2025-08-02 18:40:15] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 5.17188, -15.543
+[2025-08-02 18:40:16] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 5.39844, -15.543
+[2025-08-02 18:40:16] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 5.625, -15.543
+[2025-08-02 18:40:16] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 5.85156, -15.543
+[2025-08-02 18:40:16] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 6.30469, -15.543
+[2025-08-02 18:40:16] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 6.53125, -15.3164
+[2025-08-02 18:40:16] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 6.75781, -15.3164
+[2025-08-02 18:40:16] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 6.98438, -15.3164
+[2025-08-02 18:40:16] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 6.98438, -15.0898
+[2025-08-02 18:40:16] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 7.56641, -13.7617
+[2025-08-02 18:40:16] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 8.02344, -13.3047
+[2025-08-02 18:40:16] [TRACE] [0x16fc97000] [JFMEngine]: MouseMovedEvent: 8.25, -13.0781
+[2025-08-02 18:40:16] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 8.47656, -13.0781
+[2025-08-02 18:40:16] [INFO ] [0x16fc97000] [JFMEngine]: 收到窗口关闭事件
+[2025-08-02 18:40:16] [TRACE] [0x16fc0b000] [JFMEngine]: MouseMovedEvent: 9.60938, -14
+[2025-08-02 18:40:16] [INFO ] [0x209db4540] [JFMEngine]: Shutting down...
+[2025-08-02 18:40:16] [INFO ] [0x209db4540] [JFMEngine]: Application析构函数
+[2025-08-02 18:40:16] [INFO ] [0x209db4540] [JFMEngine]: 关闭渲染器...
+[2025-08-02 18:40:16] [INFO ] [0x209db4540] [JFMEngine]: 渲染器已关闭
+[2025-08-02 18:40:16] [INFO ] [0x209db4540] [JFMEngine]: Shutting down Event System...
+[2025-08-02 18:40:16] [INFO ] [0x209db4540] [JFMEngine]: Event System shutdown complete. Processed 120 events, Dropped 0 events
+[2025-08-02 18:40:16] [INFO ] [0x209db4540] [JFMEngine]: PrimitiveLibrary shutdown
+[2025-08-02 18:40:16] [INFO ] [0x209db4540] [JFMEngine]: SceneFactory shutdown
+[2025-08-02 18:40:16] [TRACE] [0x209db4540] [JFMEngine]: Layer detached during clear: Animal Animation Demo
+[2025-08-02 18:40:16] [INFO ] [0x209db4540] [JFMEngine]: LayerStack cleared
+[2025-08-02 18:40:16] [INFO ] [0x209db4540] [JFMEngine]: === JFM Engine Shutdown ===
+[2025-08-02 18:40:16] [INFO ] [0x209db4540] [JFMEngine]: ECS World destroyed
+[2025-08-02 18:40:16] [INFO ] [0x209db4540] [JFMEngine]: Scene 'Animal Animation Scene' destroyed
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: 日志系统初始化完成
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: === JFM Engine Starting ===
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Creating Application...
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Application构造函数
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: 初始化渲染器...
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: 初始化渲染命令系统...
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: 初始化OpenGL渲染API...
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: OpenGL版本: 4.1 Metal - 90.5
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: OpenGL供应商: Apple
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: OpenGL渲染器: Apple M4
+[2025-08-02 18:41:03] [DEBUG] [0x209db4540] [JFMEngine]: 启用混合模式
+[2025-08-02 18:41:03] [DEBUG] [0x209db4540] [JFMEngine]: 启用深度测试
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: OpenGL渲染API初始化完成
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: 渲染命令系统初始化完成
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: 渲染器初始化完成
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: 渲染系统初始化完成
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Initializing Event System with 2 worker threads
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Event System initialized successfully
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Core事件系统已初始化，使用2个工作线程
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: 事件处理器注册完成
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: GLFW事件回调已设置，事件将通过Core事件系统处理
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: OpenGL版本初始化完成，Core事件系统已启动
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Layer created: Animal Animation Demo
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Initializing PrimitiveLibrary...
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:41:03] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:41:03] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:41:03] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:41:03] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:41:03] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: PrimitiveLibrary initialized successfully
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: SceneFactory initialized
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: ECS World created
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Scene 'Animal Animation Scene' created
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Default systems added to scene 'Animal Animation Scene'
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Scene 'Animal Animation Scene' initialized
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 1
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Created debug camera: Animal Camera
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 2
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Created rendered plane: Ground
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 3
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Created entity 'Directional Light' with ID: 3
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 4
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Created entity 'Point Light' with ID: 4
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: res/model/blackcat.fbx
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: res/model/blackcat.fbx
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: RootNode
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: BlackCat
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing mesh: BlackCat
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Loading texture: res/model/BlackCat.png (type: texture_diffuse)
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: BlackCatRig
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine0
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine01
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine02
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine03
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine04
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: neck
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: head
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear01.L
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.L
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.L_end
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear01.R
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.R
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.R_end
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg01.L
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg02.L
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg03.L
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.L
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.L_end
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg01.R
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg02.R
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg03.R
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.R
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.R_end
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg01.L
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg02.L
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg03.L
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg04.L
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg05.L
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.L
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.L_end
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg01.R
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg02.R
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg03.R
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg04.R
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg05.R
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.R
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.R_end
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail01
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail02
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail03
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: TailEnd
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: Processing node: TailEnd_end
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|IdleAnim' with 36 channels, duration: {:.2f}s
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|IdleAnim
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|SittingPose' with 36 channels, duration: {:.2f}s
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|SittingPose
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|SpookedPose' with 36 channels, duration: {:.2f}s
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|SpookedPose
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|StretchPose' with 30 channels, duration: {:.2f}s
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|StretchPose
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Created animator with default animation: BlackCatRig|IdleAnim
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Model loaded successfully: 1 meshes, 0 materials, 4 animations
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Playing animation index: 0 (BlackCatRig|IdleAnim)
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Animation loop: enabled
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Layer pushed to stack: Animal Animation Demo
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Running Application...
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [JFMEngine]: Application开始运行
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: -1713.52, 338.164
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: -1710.88, 337.851
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: -1710.88, 337.621
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: -1706.88, 336.594
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: -1707.89, 336.594
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: -1705.5, 336.594
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: -1701.61, 336.594
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: -1691.52, 336.594
+[2025-08-02 18:41:03] [TRACE] [0x209db4540] [JFMEngine]: MouseMovedEvent: -1673.81, 337.266
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: -1649.98, 339.984
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: -1634.64, 342.074
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: -1617, 345.598
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: -1591.29, 351.598
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: -1516.99, 365.742
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: -1405.75, 385.852
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: -1252.31, 407.91
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: -1079.52, 422.637
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: -992.238, 429.348
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: -901.445, 434.766
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: -810.652, 440.184
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: -629.066, 453.719
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: -456.273, 471.137
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: -304.598, 484.129
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: -240.191, 487.844
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: -184.578, 491.391
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: -136, 494.777
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: -59.9492, 500.93
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: -18.3633, 504.691
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 7.74219, 508.809
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 17.7422, 510.809
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 25.4531, 512.734
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 32.3984, 513.996
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 42.4727, 516.363
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 47.1289, 518.109
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 52.6953, 521.199
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 59.0117, 524.355
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 66.0781, 527.566
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 73.0234, 530.09
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 81.4961, 532.043
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 89.207, 533.969
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 96.1523, 534.598
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 102.336, 535.215
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 113.176, 535.215
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 117.07, 535.215
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 117.941, 534.629
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 118.812, 534.043
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 119.395, 533.168
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 120.82, 531.262
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 122.383, 528.129
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 123.332, 525.746
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 125.66, 521.086
+[2025-08-02 18:41:03] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 128.133, 514.898
+[2025-08-02 18:41:03] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 132.816, 493.363
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 134.211, 478.016
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 134.914, 460.379
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 134.914, 434.664
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 133.086, 405.43
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 128.152, 370.918
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 121.098, 334.648
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 111.508, 294.168
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 88.6055, 207.98
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 77.0859, 169.242
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 66.0039, 133.98
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 57.1406, 107.391
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 48.8789, 84.2578
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 42.5273, 67.3281
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 36.9023, 51.1562
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 32.7539, 37.3359
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 28.6055, 23.5156
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 25.1875, 11.2227
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 22.4727, -0.308594
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 20.4531, -11.0742
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 19.1484, -19.5508
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 18.5273, -25.7383
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 18.5273, -30.3984
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 18.5273, -31.2734
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 18.5273, -31.7344
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 18.5273, -31.5078
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 18.2969, -31.5078
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 18.0664, -31.7383
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 17.7734, -30.8672
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 17.543, -30.6406
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 17.25, -29.7695
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 16.957, -28.8984
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 16.7266, -28.4414
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 16.7266, -27.5703
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 16.7266, -27.3438
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 16.7266, -26.4727
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 16.7266, -24.8477
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 16.7266, -23.75
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 16.7266, -23.5234
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 16.7266, -23.2969
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 16.7266, -22.8398
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 16.7266, -22.6133
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 16.7266, -21.7422
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 16.7266, -21.5156
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 16.4961, -21.0586
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 16.4961, -20.6016
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 16.2656, -20.1484
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 16.2656, -19.6914
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 16.2656, -19.4648
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 16.0352, -19.2383
+[2025-08-02 18:41:04] [TRACE] [0x16d98f000] [JFMEngine]: MouseMovedEvent: 16.0352, -18.7812
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 16.0352, -18.3242
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 15.8047, -17.6406
+[2025-08-02 18:41:04] [TRACE] [0x16da1b000] [JFMEngine]: MouseMovedEvent: 15.5742, -17.1836
+[2025-08-02 18:41:04] [INFO ] [0x16d98f000] [JFMEngine]: 收到窗口关闭事件
+[2025-08-02 18:41:04] [INFO ] [0x209db4540] [JFMEngine]: Shutting down...
+[2025-08-02 18:41:04] [INFO ] [0x209db4540] [JFMEngine]: Application析构函数
+[2025-08-02 18:41:04] [INFO ] [0x209db4540] [JFMEngine]: 关闭渲染器...
+[2025-08-02 18:41:04] [INFO ] [0x209db4540] [JFMEngine]: 渲染器已关闭
+[2025-08-02 18:41:04] [INFO ] [0x209db4540] [JFMEngine]: Shutting down Event System...
+[2025-08-02 18:41:04] [INFO ] [0x209db4540] [JFMEngine]: Event System shutdown complete. Processed 107 events, Dropped 0 events
+[2025-08-02 18:41:04] [INFO ] [0x209db4540] [JFMEngine]: PrimitiveLibrary shutdown
+[2025-08-02 18:41:04] [INFO ] [0x209db4540] [JFMEngine]: SceneFactory shutdown
+[2025-08-02 18:41:04] [TRACE] [0x209db4540] [JFMEngine]: Layer detached during clear: Animal Animation Demo
+[2025-08-02 18:41:04] [INFO ] [0x209db4540] [JFMEngine]: LayerStack cleared
+[2025-08-02 18:41:04] [INFO ] [0x209db4540] [JFMEngine]: === JFM Engine Shutdown ===
+[2025-08-02 18:41:04] [INFO ] [0x209db4540] [JFMEngine]: ECS World destroyed
+[2025-08-02 18:41:04] [INFO ] [0x209db4540] [JFMEngine]: Scene 'Animal Animation Scene' destroyed
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: 日志系统初始化完成
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: === JFM Engine Starting ===
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Creating Application...
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Application构造函数
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: 初始化渲染器...
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: 初始化渲染命令系统...
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: 初始化OpenGL渲染API...
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: OpenGL版本: 4.1 Metal - 90.5
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: OpenGL供应商: Apple
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: OpenGL渲染器: Apple M4
+[2025-08-02 18:42:12] [DEBUG] [0x209db4540] [JFMEngine]: 启用混合模式
+[2025-08-02 18:42:12] [DEBUG] [0x209db4540] [JFMEngine]: 启用深度测试
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: OpenGL渲染API初始化完成
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: 渲染命令系统初始化完成
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: 渲染器初始化完成
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: 渲染系统初始化完成
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Initializing Event System with 2 worker threads
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Event System initialized successfully
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Core事件系统已初始化，使用2个工作线程
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: 事件处理器注册完成
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: GLFW事件回调已设置，事件将通过Core事件系统处理
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: OpenGL版本初始化完成，Core事件系统已启动
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Layer created: Animal Animation Demo
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Initializing PrimitiveLibrary...
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:42:12] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:42:12] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:42:12] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:42:12] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: 
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: 
+[2025-08-02 18:42:12] [ERROR] [0x209db4540] [JFMEngine]: Model file not found: 
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: PrimitiveLibrary initialized successfully
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: SceneFactory initialized
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: ECS World created
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Scene 'Animal Animation Scene' created
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Default systems added to scene 'Animal Animation Scene'
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Scene 'Animal Animation Scene' initialized
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 1
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Created debug camera: Animal Camera
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 2
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Created rendered plane: Ground
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 3
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Created entity 'Directional Light' with ID: 3
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Created entity with ID: 4
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Created entity 'Point Light' with ID: 4
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: res/model/blackcat.fbx
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: res/model/blackcat.fbx
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: RootNode
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: BlackCat
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing mesh: BlackCat
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Loading texture: res/model/BlackCat.png (type: texture_diffuse)
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: BlackCatRig
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine0
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine01
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine02
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine03
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine04
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: neck
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: head
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear01.L
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.L
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.L_end
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear01.R
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.R
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.R_end
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg01.L
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg02.L
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg03.L
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.L
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.L_end
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg01.R
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg02.R
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg03.R
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.R
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.R_end
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg01.L
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg02.L
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg03.L
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg04.L
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg05.L
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.L
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.L_end
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg01.R
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg02.R
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg03.R
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg04.R
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg05.R
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.R
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.R_end
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail01
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail02
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail03
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: TailEnd
+[2025-08-02 18:42:12] [TRACE] [0x209db4540] [JFMEngine]: Processing node: TailEnd_end
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|IdleAnim' with 36 channels, duration: {:.2f}s
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|IdleAnim
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|SittingPose' with 36 channels, duration: {:.2f}s
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|SittingPose
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|SpookedPose' with 36 channels, duration: {:.2f}s
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|SpookedPose
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|StretchPose' with 30 channels, duration: {:.2f}s
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|StretchPose
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Created animator with default animation: BlackCatRig|IdleAnim
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Model loaded successfully: 1 meshes, 0 materials, 4 animations
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Playing animation index: 0 (BlackCatRig|IdleAnim)
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Animation loop: enabled
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Layer pushed to stack: Animal Animation Demo
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Running Application...
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [JFMEngine]: Application开始运行
+[2025-08-02 18:42:12] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 238.074, 695.93
+[2025-08-02 18:42:12] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 237.152, 696.156
+[2025-08-02 18:42:12] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 234.367, 701.238
+[2025-08-02 18:42:12] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 234.134, 701.238
+[2025-08-02 18:42:12] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 233.647, 700.425
+[2025-08-02 18:42:12] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 233.833, 699.098
+[2025-08-02 18:42:12] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 233.602, 699.098
+[2025-08-02 18:42:12] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 233.788, 698.666
+[2025-08-02 18:42:12] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 233.557, 698.893
+[2025-08-02 18:42:12] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 233.534, 698.235
+[2025-08-02 18:42:12] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 233.512, 697.805
+[2025-08-02 18:42:12] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 233.489, 697.805
+[2025-08-02 18:42:12] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 233.259, 698.031
+[2025-08-02 18:42:12] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 232.569, 697.602
+[2025-08-02 18:42:12] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 232.338, 697.829
+[2025-08-02 18:42:12] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 231.648, 698.055
+[2025-08-02 18:42:12] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 231.188, 698.281
+[2025-08-02 18:42:12] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 230.727, 698.507
+[2025-08-02 18:42:12] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 230.267, 699.391
+[2025-08-02 18:42:12] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 229.346, 699.617
+[2025-08-02 18:42:12] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 227.797, 700.363
+[2025-08-02 18:42:12] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 226.875, 700.816
+[2025-08-02 18:42:12] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 226, 701.398
+[2025-08-02 18:42:12] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 226, 700.707
+[2025-08-02 18:42:12] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 226, 697.449
+[2025-08-02 18:42:12] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 226, 693.441
+[2025-08-02 18:42:12] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 226, 687.914
+[2025-08-02 18:42:12] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 226, 682.492
+[2025-08-02 18:42:12] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 227.961, 665.539
+[2025-08-02 18:42:12] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 234.012, 644.008
+[2025-08-02 18:42:12] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 244.312, 619.27
+[2025-08-02 18:42:12] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 255.422, 591.488
+[2025-08-02 18:42:12] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 260.301, 576.84
+[2025-08-02 18:42:12] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 263.77, 562.258
+[2025-08-02 18:42:12] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 265.164, 546.91
+[2025-08-02 18:42:12] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 266.566, 513.164
+[2025-08-02 18:42:12] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 266.566, 480.18
+[2025-08-02 18:42:12] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 266.566, 454.828
+[2025-08-02 18:42:12] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 267.223, 445.586
+[2025-08-02 18:42:12] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 268.484, 438.637
+[2025-08-02 18:42:12] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 269.086, 433.215
+[2025-08-02 18:42:12] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 269.086, 430.711
+[2025-08-02 18:42:12] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 267.98, 429.664
+[2025-08-02 18:42:12] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 265.477, 428.668
+[2025-08-02 18:42:12] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 264.785, 428.668
+[2025-08-02 18:42:12] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 264.785, 428.895
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 264.555, 428.664
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 263.969, 427.789
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 261.062, 423.547
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 256.336, 414.094
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 244.996, 396.75
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 238.266, 388
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 231.598, 379.996
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 225.656, 372.734
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 215.293, 359.133
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 207, 346.383
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 201.363, 333.875
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 197.027, 321.5
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 195.219, 316.078
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 193.41, 310.656
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 192.242, 305.996
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 188.16, 296.676
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 184.262, 289.465
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 182.246, 286.207
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 182.016, 285.746
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 181.785, 285.516
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 181.555, 285.516
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 181.324, 285.516
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 181.094, 285.516
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 180.633, 285.516
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 180.402, 285.516
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 180.172, 285.516
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 178.836, 285.223
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 173.59, 281.008
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 170.07, 276.488
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 167.156, 272.41
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 161.938, 265.238
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 154.379, 254.242
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 134.691, 226.117
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 113.559, 197.945
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 102.309, 184.586
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 91.0586, 171.227
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 70.7852, 146.059
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 62.4922, 135.004
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 54.9805, 124.758
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 48.9766, 116.086
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 39.9648, 102.594
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 34.6172, 93.6953
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 30.9609, 87.9727
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 28.9453, 84.7148
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 28.3594, 83.8398
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 27.543, 82.5039
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 27.082, 81.582
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 26.4961, 80.2461
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 25.8047, 79.3242
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 24.582, 78.1016
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 24.3516, 77.6406
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 23.1289, 76.418
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 20.4766, 73.2891
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 18.4609, 70.5078
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 16.9453, 68.4102
+[2025-08-02 18:42:13] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 16.7148, 68.1797
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 16.4844, 67.9492
+[2025-08-02 18:42:13] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 16.4844, 66.8438
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 16.4844, 63.4805
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 17.0039, 60.3477
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 17.0039, 57.2148
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 17.0039, 54.082
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 17.0039, 50.8242
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 17.0039, 43.7812
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 17.0039, 34.4609
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 17.0039, 25.9023
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 17.0039, 22.0039
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 17.0039, 18.1055
+[2025-08-02 18:42:14] [TRACE] [0x209db4540] [JFMEngine]: MouseMovedEvent: 17.0039, 14.9727
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 17.0039, 12.1289
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 17.0039, 11.207
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 17.0039, 10.5156
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 17.0039, 10.2852
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 17.0039, 9.82422
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 17.0039, 9.36328
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 17.0039, 8.44141
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 17.0039, 7.51953
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 17.0039, 7.05859
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 17.0039, 6.59766
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 17.0039, 6.36719
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 17.0039, 6.13672
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 16.7734, 5.67578
+[2025-08-02 18:42:14] [TRACE] [0x209db4540] [JFMEngine]: MouseMovedEvent: 16.543, 5.21484
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 16.3125, 4.29297
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 16.082, 3.83203
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 16.082, 3.37109
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 15.8516, 2.91016
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 15.8516, 2.67969
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 15.6211, 2.44922
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 15.3906, 1.98828
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 15.3906, 1.52734
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 15.1602, 1.06641
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 15.1602, 0.835938
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 15.1602, 0.605469
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 14.9297, 0.144531
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 14.9297, -0.316406
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 14.9297, -0.546875
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 14.9297, -0.777344
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 14.9297, -1.46875
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 14.9297, -2.16016
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 14.9297, -2.39062
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 14.9297, -2.85156
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 14.9297, -3.08203
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 14.9297, -3.54297
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 14.9297, -4.00391
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 14.9297, -4.23438
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 14.9297, -4.46484
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 15.1562, -4.69531
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 15.1562, -4.92578
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 15.1562, -5.15625
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 15.1562, -5.38672
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 15.1562, -5.84766
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 15.1562, -6.53906
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 15.1562, -7
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 15.3828, -7.23047
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 15.3828, -7.69141
+[2025-08-02 18:42:14] [TRACE] [0x16d357000] [JFMEngine]: MouseMovedEvent: 15.6094, -8.38281
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 15.6094, -8.61328
+[2025-08-02 18:42:14] [TRACE] [0x16d2cb000] [JFMEngine]: MouseMovedEvent: 15.6094, -8.84375
+[2025-08-02 18:42:15] [INFO ] [0x16d2cb000] [JFMEngine]: 收到窗口关闭事件
+[2025-08-02 18:42:15] [INFO ] [0x209db4540] [JFMEngine]: Shutting down...
+[2025-08-02 18:42:15] [INFO ] [0x209db4540] [JFMEngine]: Application析构函数
+[2025-08-02 18:42:15] [INFO ] [0x209db4540] [JFMEngine]: 关闭渲染器...
+[2025-08-02 18:42:15] [INFO ] [0x209db4540] [JFMEngine]: 渲染器已关闭
+[2025-08-02 18:42:15] [INFO ] [0x209db4540] [JFMEngine]: Shutting down Event System...
+[2025-08-02 18:42:15] [INFO ] [0x209db4540] [JFMEngine]: Event System shutdown complete. Processed 166 events, Dropped 0 events
+[2025-08-02 18:42:15] [INFO ] [0x209db4540] [JFMEngine]: PrimitiveLibrary shutdown
+[2025-08-02 18:42:15] [INFO ] [0x209db4540] [JFMEngine]: SceneFactory shutdown
+[2025-08-02 18:42:15] [TRACE] [0x209db4540] [JFMEngine]: Layer detached during clear: Animal Animation Demo
+[2025-08-02 18:42:15] [INFO ] [0x209db4540] [JFMEngine]: LayerStack cleared
+[2025-08-02 18:42:15] [INFO ] [0x209db4540] [JFMEngine]: === JFM Engine Shutdown ===
+[2025-08-02 18:42:15] [INFO ] [0x209db4540] [JFMEngine]: ECS World destroyed
+[2025-08-02 18:42:15] [INFO ] [0x209db4540] [JFMEngine]: Scene 'Animal Animation Scene' destroyed
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: 日志系统初始化完成
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: === JFM Engine Starting ===
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: Creating Application...
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: Application构造函数
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: 初始化渲染器...
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: 初始化渲染命令系统...
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: 初始化OpenGL渲染API...
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: OpenGL版本: 4.1 Metal - 90.5
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: OpenGL供应商: Apple
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: OpenGL渲染器: Apple M4
+[2025-08-03 12:18:11] [DEBUG] [0x209db4540] [JFMEngine]: 启用混合模式
+[2025-08-03 12:18:11] [DEBUG] [0x209db4540] [JFMEngine]: 启用深度测试
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: OpenGL渲染API初始化完成
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: 渲染命令系统初始化完成
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: 渲染器初始化完成
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: 渲染系统初始化完成
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: Initializing Event System with 2 worker threads
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: Event System initialized successfully
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: Core事件系统已初始化，使用2个工作线程
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: 事件处理器注册完成
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: GLFW事件回调已设置，事件将通过Core事件系统处理
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: OpenGL版本初始化完成，Core事件系统已启动
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Layer created: AnimalAnimationLayer
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: Creating model from path: /Users/kw/JFMEngine_New/res/model/blackcat.fbx
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: Loading model from: /Users/kw/JFMEngine_New/res/model/blackcat.fbx
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: RootNode
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: BlackCat
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing mesh: BlackCat
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Loading texture: /Users/kw/JFMEngine_New/res/model/BlackCat.png (type: texture_diffuse)
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: BlackCatRig
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine0
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine01
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine02
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine03
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: spine04
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: neck
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: head
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear01.L
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.L
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.L_end
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear01.R
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.R
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: ear02.R_end
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg01.L
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg02.L
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg03.L
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.L
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.L_end
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg01.R
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg02.R
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontLeg03.R
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.R
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: frontPaw.R_end
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg01.L
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg02.L
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg03.L
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg04.L
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg05.L
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.L
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.L_end
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg01.R
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg02.R
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg03.R
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg04.R
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindLeg05.R
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.R
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: hindPaw.R_end
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail01
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail02
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: Tail03
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: TailEnd
+[2025-08-03 12:18:11] [TRACE] [0x209db4540] [JFMEngine]: Processing node: TailEnd_end
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|IdleAnim' with 36 channels, duration: {:.2f}s
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|IdleAnim
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|SittingPose' with 36 channels, duration: {:.2f}s
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|SittingPose
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|SpookedPose' with 36 channels, duration: {:.2f}s
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|SpookedPose
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: Created animation clip 'BlackCatRig|StretchPose' with 30 channels, duration: {:.2f}s
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: Loaded animation: BlackCatRig|StretchPose
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: Created animator with default animation: BlackCatRig|IdleAnim
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: Model loaded successfully: 1 meshes, 0 materials, 4 animations
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: Playing animation index: 0 (BlackCatRig|IdleAnim)
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: Layer pushed to stack: AnimalAnimationLayer
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: Running Application...
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [JFMEngine]: Application开始运行
+[2025-08-03 12:18:11] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 230.841, 191.606
+[2025-08-03 12:18:11] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 232.528, 192.434
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 232.109, 192.66
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 232.57, 192.887
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 232.57, 193.113
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 232.801, 193.113
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 233.031, 193.113
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 233.262, 193.113
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 234.137, 193.113
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 236.641, 193.113
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 237.102, 193.113
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 237.562, 193.113
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 237.793, 193.113
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 237.793, 192.883
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 237.793, 192.652
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 237.793, 192.422
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 237.793, 192.191
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 237.793, 191.73
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 237.793, 188.137
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 237.793, 182.621
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 236.629, 177.961
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 234.156, 171.773
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 231, 165.453
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 226.438, 158.281
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 221.16, 150.359
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 215.223, 143.098
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 209.285, 135.836
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 197.547, 122.145
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 184.285, 106.879
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 178.418, 100.359
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 172.637, 94.5781
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 166.855, 88.7969
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 161.805, 83.7461
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 156.023, 77.9648
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 146.555, 67.2383
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 139.934, 58.2188
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 137.152, 54.8828
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 133.539, 50.668
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 130.758, 47.8867
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 128.672, 45.2773
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 126.77, 43.375
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 124.867, 41.4727
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 122.965, 39.5703
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 119.16, 36.7188
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 116.551, 34.6328
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 113.941, 32.5469
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 110.605, 30.3242
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 107.27, 27.543
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 103.934, 24.7617
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 100.598, 22.5391
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 97.8164, 19.7578
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 92.5977, 15.5859
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 86.6523, 10.7188
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 84.043, 8.63281
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 81.4336, 6.54688
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 79.5312, 5.12109
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 77.6289, 3.69531
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 75.25, 2.26953
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 74.793, 2.04297
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 72.8906, 0.617188
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 71.5625, -0.191406
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 71.1055, -0.417969
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 69.2031, -1.84375
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 67.5781, -2.65625
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 67.1211, -2.88281
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 66.6641, -3.33984
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 66.4375, -3.33984
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 66.4375, -3.56641
+[2025-08-03 12:18:12] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 66.2109, -3.56641
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 65.9844, -3.56641
+[2025-08-03 12:18:12] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 65.5273, -3.56641
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 65.3008, -3.56641
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 63.6758, -3.56641
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 62.0508, -3.56641
+[2025-08-03 12:18:13] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 59.6719, -3.56641
+[2025-08-03 12:18:13] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 56.543, -4.08594
+[2025-08-03 12:18:13] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 53.293, -4.08594
+[2025-08-03 12:18:13] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 45.5078, -4.66797
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 41.6133, -5.22266
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 36.957, -5.80469
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 33.0625, -5.80469
+[2025-08-03 12:18:13] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 29.9336, -6.32422
+[2025-08-03 12:18:13] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 26.8047, -6.84375
+[2025-08-03 12:18:13] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 25.9336, -6.84375
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 25.0625, -7.13281
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 24.1484, -7.35938
+[2025-08-03 12:18:13] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 24.1484, -7.58594
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 23.9219, -7.58594
+[2025-08-03 12:18:13] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 23.6953, -7.58594
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 23.6953, -7.8125
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 23.2383, -7.8125
+[2025-08-03 12:18:13] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 23.0117, -7.8125
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 22.7852, -8.03906
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 22.332, -8.03906
+[2025-08-03 12:18:13] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 22.1055, -8.03906
+[2025-08-03 12:18:13] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 22.1055, -8.26562
+[2025-08-03 12:18:13] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 22.6523, -8.26562
+[2025-08-03 12:18:13] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 22.4258, -8.26562
+[2025-08-03 12:18:13] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 22.1992, -8.26562
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 21.9727, -8.26562
+[2025-08-03 12:18:13] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 21.7461, -8.26562
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 21.5195, -8.26562
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 21.0625, -8.26562
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 20.6055, -8.26562
+[2025-08-03 12:18:13] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 20.3789, -8.26562
+[2025-08-03 12:18:13] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 20.1523, -8.26562
+[2025-08-03 12:18:13] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 19.6953, -8.26562
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 19.4688, -8.26562
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 19.2422, -8.26562
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 18.7852, -8.72266
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 18.332, -8.72266
+[2025-08-03 12:18:13] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 18.1055, -8.94922
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 17.8789, -8.94922
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 17.6523, -9.17578
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 17.4258, -9.17578
+[2025-08-03 12:18:13] [TRACE] [0x16ba83000] [JFMEngine]: MouseMovedEvent: 17.1992, -9.17578
+[2025-08-03 12:18:13] [TRACE] [0x16b9f7000] [JFMEngine]: MouseMovedEvent: 17.1992, -9.40234
+[2025-08-03 12:18:13] [INFO ] [0x16b9f7000] [JFMEngine]: 收到窗口关闭事件
+[2025-08-03 12:18:13] [INFO ] [0x209db4540] [JFMEngine]: Shutting down...
+[2025-08-03 12:18:13] [INFO ] [0x209db4540] [JFMEngine]: Application析构函数
+[2025-08-03 12:18:13] [INFO ] [0x209db4540] [JFMEngine]: 关闭渲染器...
+[2025-08-03 12:18:13] [INFO ] [0x209db4540] [JFMEngine]: 渲染器已关闭
+[2025-08-03 12:18:13] [INFO ] [0x209db4540] [JFMEngine]: Shutting down Event System...
+[2025-08-03 12:18:13] [INFO ] [0x209db4540] [JFMEngine]: Event System shutdown complete. Processed 118 events, Dropped 0 events
+[2025-08-03 12:18:13] [TRACE] [0x209db4540] [JFMEngine]: Layer detached during clear: AnimalAnimationLayer
+[2025-08-03 12:18:13] [INFO ] [0x209db4540] [JFMEngine]: LayerStack cleared
+[2025-08-03 12:18:13] [INFO ] [0x209db4540] [JFMEngine]: === JFM Engine Shutdown ===

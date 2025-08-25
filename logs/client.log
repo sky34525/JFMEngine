@@ -1,0 +1,120 @@
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [Client]: Animal Animation Demo Layer attached
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [Client]: Found model directory: res/model
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [Client]: Found model file: res/model/blackcat.fbx
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [Client]: Attempting to load animal model: res/model/blackcat.fbx
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [Client]: Mesh setup completed - 1030 vertices, 1398 indices
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [Client]: Model 'blackcat' has 4 animations:
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [Client]:   [0] BlackCatRig|IdleAnim
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [Client]:   [1] BlackCatRig|SittingPose
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [Client]:   [2] BlackCatRig|SpookedPose
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [Client]:   [3] BlackCatRig|StretchPose
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [Client]: Started animation 'BlackCatRig|IdleAnim' for 'blackcat'
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [Client]: Successfully loaded animal: blackcat (meshes: 1, animations: 4)
+[2025-08-02 18:31:35] [INFO ] [0x209db4540] [Client]: Animal animation demo initialized with 1 animals
+[2025-08-02 18:31:37] [INFO ] [0x209db4540] [Client]: Animal Animation Demo Layer detached
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [Client]: Animal Animation Demo Layer attached
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [Client]: Found model directory: res/model
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [Client]: Found model file: res/model/blackcat.fbx
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [Client]: Attempting to load animal model: res/model/blackcat.fbx
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [Client]: Mesh setup completed - 1030 vertices, 1398 indices
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [Client]: Model 'blackcat' has 4 animations:
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [Client]:   [0] BlackCatRig|IdleAnim
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [Client]:   [1] BlackCatRig|SittingPose
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [Client]:   [2] BlackCatRig|SpookedPose
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [Client]:   [3] BlackCatRig|StretchPose
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [Client]: Started animation 'BlackCatRig|IdleAnim' for 'blackcat'
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [Client]: Successfully loaded animal: blackcat (meshes: 1, animations: 4)
+[2025-08-02 18:34:49] [INFO ] [0x209db4540] [Client]: Animal animation demo initialized with 1 animals
+[2025-08-02 18:34:50] [INFO ] [0x209db4540] [Client]: Animal Animation Demo Layer detached
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [Client]: Animal Animation Demo Layer attached
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [Client]: Found model directory: res/model
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [Client]: Found model file: res/model/blackcat.fbx
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [Client]: Attempting to load animal model: res/model/blackcat.fbx
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [Client]: Mesh setup completed - 1030 vertices, 1398 indices
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [Client]: Model 'blackcat' has 4 animations:
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [Client]:   [0] BlackCatRig|IdleAnim
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [Client]:   [1] BlackCatRig|SittingPose
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [Client]:   [2] BlackCatRig|SpookedPose
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [Client]:   [3] BlackCatRig|StretchPose
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [Client]: Started animation 'BlackCatRig|IdleAnim' for 'blackcat'
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [Client]: Successfully loaded animal: blackcat (meshes: 1, animations: 4)
+[2025-08-02 18:36:28] [INFO ] [0x209db4540] [Client]: Animal animation demo initialized with 1 animals
+[2025-08-02 18:36:29] [INFO ] [0x209db4540] [Client]: Animal Animation Demo Layer detached
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [Client]: Animal Animation Demo Layer attached
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [Client]: Found model directory: res/model
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [Client]: Found model file: res/model/blackcat.fbx
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [Client]: Attempting to load animal model: res/model/blackcat.fbx
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [Client]: Mesh setup completed - 1030 vertices, 1398 indices
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [Client]: Model 'blackcat' has 4 animations:
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [Client]:   [0] BlackCatRig|IdleAnim
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [Client]:   [1] BlackCatRig|SittingPose
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [Client]:   [2] BlackCatRig|SpookedPose
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [Client]:   [3] BlackCatRig|StretchPose
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [Client]: Started animation 'BlackCatRig|IdleAnim' for 'blackcat'
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [Client]: Successfully loaded animal: blackcat (meshes: 1, animations: 4)
+[2025-08-02 18:38:57] [INFO ] [0x209db4540] [Client]: Animal animation demo initialized with 1 animals
+[2025-08-02 18:38:59] [INFO ] [0x209db4540] [Client]: Animal Animation Demo Layer detached
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [Client]: Animal Animation Demo Layer attached
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [Client]: Found model directory: res/model
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [Client]: Found model file: res/model/blackcat.fbx
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [Client]: Attempting to load animal model: res/model/blackcat.fbx
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [Client]: Mesh setup completed - 1030 vertices, 1398 indices
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [Client]: Model 'blackcat' has 4 animations:
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [Client]:   [0] BlackCatRig|IdleAnim
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [Client]:   [1] BlackCatRig|SittingPose
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [Client]:   [2] BlackCatRig|SpookedPose
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [Client]:   [3] BlackCatRig|StretchPose
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [Client]: Started animation 'BlackCatRig|IdleAnim' for 'blackcat'
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [Client]: Successfully loaded animal: blackcat (meshes: 1, animations: 4)
+[2025-08-02 18:40:14] [INFO ] [0x209db4540] [Client]: Animal animation demo initialized with 1 animals
+[2025-08-02 18:40:16] [INFO ] [0x209db4540] [Client]: Animal Animation Demo Layer detached
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [Client]: Animal Animation Demo Layer attached
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [Client]: Found model directory: res/model
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [Client]: Found model file: res/model/blackcat.fbx
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [Client]: Attempting to load animal model: res/model/blackcat.fbx
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [Client]: Mesh setup completed - 1030 vertices, 1398 indices
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [Client]: Model 'blackcat' has 4 animations:
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [Client]:   [0] BlackCatRig|IdleAnim
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [Client]:   [1] BlackCatRig|SittingPose
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [Client]:   [2] BlackCatRig|SpookedPose
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [Client]:   [3] BlackCatRig|StretchPose
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [Client]: Started animation 'BlackCatRig|IdleAnim' for 'blackcat'
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [Client]: Successfully loaded animal: blackcat (meshes: 1, animations: 4)
+[2025-08-02 18:41:03] [INFO ] [0x209db4540] [Client]: Animal animation demo initialized with 1 animals
+[2025-08-02 18:41:04] [INFO ] [0x209db4540] [Client]: Animal Animation Demo Layer detached
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [Client]: Animal Animation Demo Layer attached
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [Client]: Found model directory: res/model
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [Client]: Found model file: res/model/blackcat.fbx
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [Client]: Attempting to load animal model: res/model/blackcat.fbx
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [Client]: Mesh setup completed - 1030 vertices, 1398 indices
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [Client]: Model 'blackcat' has 4 animations:
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [Client]:   [0] BlackCatRig|IdleAnim
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [Client]:   [1] BlackCatRig|SittingPose
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [Client]:   [2] BlackCatRig|SpookedPose
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [Client]:   [3] BlackCatRig|StretchPose
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [Client]: Started animation 'BlackCatRig|IdleAnim' for 'blackcat'
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [Client]: Successfully loaded animal: blackcat (meshes: 1, animations: 4)
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [Client]: Animal animation demo initialized with 1 animals
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [Client]: OnUpdate called, frame: 1
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [Client]: Camera Position: (15, 8, 6.3e-08)
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [Client]: Animal 'blackcat' Position: (-8, 0, -5.1)
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [Client]: Scene render completed
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [Client]: Animal 'blackcat' rendered
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [Client]: OnUpdate called, frame: 61
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [Client]: Scene render completed
+[2025-08-02 18:42:12] [INFO ] [0x209db4540] [Client]: Animal 'blackcat' rendered
+[2025-08-02 18:42:13] [INFO ] [0x209db4540] [Client]: OnUpdate called, frame: 121
+[2025-08-02 18:42:13] [INFO ] [0x209db4540] [Client]: Scene render completed
+[2025-08-02 18:42:13] [INFO ] [0x209db4540] [Client]: Animal 'blackcat' rendered
+[2025-08-02 18:42:13] [INFO ] [0x209db4540] [Client]: OnUpdate called, frame: 181
+[2025-08-02 18:42:13] [INFO ] [0x209db4540] [Client]: Scene render completed
+[2025-08-02 18:42:13] [INFO ] [0x209db4540] [Client]: Animal 'blackcat' rendered
+[2025-08-02 18:42:14] [INFO ] [0x209db4540] [Client]: OnUpdate called, frame: 241
+[2025-08-02 18:42:14] [INFO ] [0x209db4540] [Client]: Scene render completed
+[2025-08-02 18:42:14] [INFO ] [0x209db4540] [Client]: Animal 'blackcat' rendered
+[2025-08-02 18:42:14] [INFO ] [0x209db4540] [Client]: OnUpdate called, frame: 301
+[2025-08-02 18:42:14] [INFO ] [0x209db4540] [Client]: Scene render completed
+[2025-08-02 18:42:14] [INFO ] [0x209db4540] [Client]: Animal 'blackcat' rendered
+[2025-08-02 18:42:15] [INFO ] [0x209db4540] [Client]: Animal Animation Demo Layer detached
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [Client]: Mesh setup completed - 1030 vertices, 1398 indices
+[2025-08-03 12:18:11] [INFO ] [0x209db4540] [Client]: AnimalAnimationLayer initialized successfully

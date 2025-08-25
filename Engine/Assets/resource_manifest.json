@@ -1,0 +1,68 @@
+{
+  "resourceGroups": {
+    "ui": {
+      "priority": 10,
+      "loadAsync": false,
+      "required": true,
+      "paths": [
+        "Assets/Textures/UI/button_normal.png",
+        "Assets/Textures/UI/button_hover.png",
+        "Assets/Textures/UI/button_pressed.png",
+        "Assets/Textures/UI/background.png"
+      ],
+      "textureSettings": {
+        "compressionFormat": "DXT5",
+        "generateMipmaps": false,
+        "wrapMode": "CLAMP",
+        "filterMode": "LINEAR"
+      }
+    },
+    "environment": {
+      "priority": 5,
+      "loadAsync": true,
+      "required": false,
+      "paths": [
+        "Assets/Textures/Environment/grass.tga",
+        "Assets/Textures/Environment/stone.tga",
+        "Assets/Textures/Environment/water.tga",
+        "Assets/Textures/Environment/sky.tga"
+      ],
+      "textureSettings": {
+        "compressionFormat": "DXT5",
+        "generateMipmaps": true,
+        "wrapMode": "REPEAT",
+        "filterMode": "LINEAR"
+      }
+    },
+    "characters": {
+      "priority": 8,
+      "loadAsync": true,
+      "required": true,
+      "paths": [
+        "Assets/Models/Characters/player.fbx",
+        "Assets/Models/Characters/enemy1.fbx",
+        "Assets/Models/Characters/enemy2.fbx"
+      ],
+      "modelSettings": {
+        "optimizeMesh": true,
+        "calculateTangents": true
+      }
+    },
+    "sounds": {
+      "priority": 3,
+      "loadAsync": true,
+      "required": false,
+      "paths": [
+        "Assets/Audio/Music/background.ogg",
+        "Assets/Audio/SFX/footsteps.wav",
+        "Assets/Audio/SFX/jump.wav",
+        "Assets/Audio/SFX/pickup.wav"
+      ],
+      "audioSettings": {
+        "streamingMode": true,
+        "compressionQuality": 0.7
+      }
+    }
+  }
+}
+
