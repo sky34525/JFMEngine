@@ -3,7 +3,6 @@
 // 展示基础3D几何体渲染：立方体、球体、平面
 //
 
-//TODO:检查渲染模块
 #include "glad/glad.h"
 #include "JFMEngine/JFMEngine.h"
 #include <cmath>
