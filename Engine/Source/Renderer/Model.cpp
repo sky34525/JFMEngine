@@ -12,7 +12,8 @@
 #include <assimp/scene.h>
 #include <assimp/postprocess.h>
 
-#include <filesystem>
+#include <fstream>
+#include <algorithm>
 
 namespace JFM {
 
@@ -31,9 +32,11 @@ namespace JFM {
     //负责从文件系统读取3D模型文件并将其转换为引擎可用的格式。
     void Model::LoadModel(const std::string& path) {
         // 检查文件是否存在
-        if (!std::filesystem::exists(path)) {
+        std::ifstream file(path);
+        if (!file.good()) {
             return;
         }
+        file.close();
 
         // 创建Assimp导入器
         Assimp::Importer importer;
@@ -55,8 +58,12 @@ namespace JFM {
         }
 
         // 提取目录路径
-        std::filesystem::path filePath(path);
-        m_Directory = filePath.parent_path().string();// 获取目录路径
+        size_t lastSlash = path.find_last_of("/\\");
+        if (lastSlash != std::string::npos) {
+            m_Directory = path.substr(0, lastSlash);
+        } else {
+            m_Directory = ".";
+        }
 
         // 处理根节点
         ProcessNode(scene->mRootNode, scene);

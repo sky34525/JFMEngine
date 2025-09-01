@@ -44,19 +44,6 @@
 #include "Renderer/Mesh.h"
 #include "Renderer/LightingManager.h"
 
-// ECS系统 - 新添加
-#include "ECS/ECS.h"
-#include "ECS/Entity.h"
-#include "ECS/Component.h"
-#include "ECS/Components.h"
-#include "ECS/System.h"
-#include "ECS/World.h"
-#include "ECS/Systems/TransformSystem.h"
-#include "ECS/Systems/RenderSystem.h"
-
-// 现代化场景管理 - 新添加
-#include "Scene/Scene.h"
-#include "Scene/SceneFactory.h"
 
 // 工具类
 #include "Utils/Log.h"

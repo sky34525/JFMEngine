@@ -6,7 +6,6 @@ project(JFMEngineExamples)
 # 添加子目录
 
 add_subdirectory(Simple3DDemo)
-add_subdirectory(CubeRenderDemo)
 add_subdirectory(ModelRenderDemo)
 
 

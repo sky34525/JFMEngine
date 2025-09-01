@@ -68,12 +68,12 @@ target_compile_options(JFMEngine PRIVATE
 )
 
 # 查找并链接必要的库
-find_package(PkgConfig REQUIRED)
-pkg_check_modules(GLFW3 REQUIRED glfw3)
+find_package(glfw3 REQUIRED)
+find_package(assimp QUIET)
 
 target_link_libraries(JFMEngine PUBLIC
-    ${GLFW3_LIBRARIES}
-    assimp::assimp
+        glfw
+        assimp::assimp
 )
 
 # macOS 框架

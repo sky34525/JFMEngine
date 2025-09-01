@@ -25,7 +25,10 @@ endif()
 # 查找依赖
 find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
-find_package(assimp REQUIRED)
+find_package(assimp QUIET)
+if(NOT assimp_FOUND)
+    message(WARNING "Assimp not found. Install with: brew install assimp")
+endif()
 
 # 添加子项目
 add_subdirectory(Engine)

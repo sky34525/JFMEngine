@@ -5,10 +5,10 @@
 #include "JFMEngine/Resources/ResourceManager.h"
 #include "JFMEngine/Resources/ResourceLoaders.h"
 #include "JFMEngine/Utils//Log.h"
-#include <filesystem>
 #include <fstream>
 #include <algorithm>
 #include <chrono>
+#include <sys/stat.h>
 
 namespace JFM {
 
@@ -82,8 +82,8 @@ namespace JFM {
     }
 
     ResourceType ResourceManager::GetResourceTypeFromPath(const std::string& path) {
-        std::filesystem::path filePath(path);
-        std::string extension = filePath.extension().string();
+        size_t dotPos = path.find_last_of('.');
+        std::string extension = (dotPos != std::string::npos) ? path.substr(dotPos) : "";
         std::transform(extension.begin(), extension.end(), extension.begin(), ::tolower);
 
         // 纹理格式
@@ -202,19 +202,21 @@ namespace JFM {
             const std::string& path = pair.first;
             auto& resource = pair.second;
 
-            if (std::filesystem::exists(path)) {
-                auto writeTime = std::filesystem::last_write_time(path);
-                auto sctp = std::chrono::time_point_cast<std::chrono::system_clock::duration>(
-                    writeTime - std::filesystem::file_time_type::clock::now() +
-                    std::chrono::system_clock::now());
-                auto timestamp = std::chrono::duration_cast<std::chrono::milliseconds>(
-                    sctp.time_since_epoch()).count();
-
-                // 检查文件是否被修改
-                if (timestamp > m_LastAccessTimes[path]) {
-                    resource->Unload();
-                    resource->Load();
-                    m_LastAccessTimes[path] = timestamp;
+            std::ifstream testFile(path);
+            if (testFile.good()) {
+                testFile.close();
+                
+                // 获取文件修改时间
+                struct stat fileStat;
+                if (stat(path.c_str(), &fileStat) == 0) {
+                    auto timestamp = static_cast<uint64_t>(fileStat.st_mtime) * 1000; // 转换为毫秒
+                    
+                    // 检查文件是否被修改
+                    if (timestamp > m_LastAccessTimes[path]) {
+                        resource->Unload();
+                        resource->Load();
+                        m_LastAccessTimes[path] = timestamp;
+                    }
                 }
             }
         }

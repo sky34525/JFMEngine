@@ -316,8 +316,8 @@ namespace JFM {
 
         m_State = ResourceState::LOADING;
 
-        std::filesystem::path filePath(m_Path);
-        std::string extension = filePath.extension().string();
+        size_t dotPos = m_Path.find_last_of('.');
+        std::string extension = (dotPos != std::string::npos) ? m_Path.substr(dotPos) : "";
         std::transform(extension.begin(), extension.end(), extension.begin(), ::tolower);
 
         bool success = false;

@@ -226,8 +226,8 @@ namespace JFM {
                                                   const ResourcePreloadConfig& config) {
         try {
             // 直接通过文件扩展名确定资源类型，避免访问私有方法
-            std::filesystem::path filePath(path);
-            std::string extension = filePath.extension().string();
+            size_t dotPos = path.find_last_of('.');
+            std::string extension = (dotPos != std::string::npos) ? path.substr(dotPos) : "";
             std::transform(extension.begin(), extension.end(), extension.begin(), ::tolower);
 
             ResourceType type = ResourceType::TEXTURE; // 默认

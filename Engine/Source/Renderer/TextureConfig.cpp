@@ -5,7 +5,7 @@
 #include "JFMEngine/Renderer/TextureConfig.h"
 #include "JFMEngine/Utils/Log.h"
 #include <fstream>
-#include <filesystem>
+#include <algorithm>
 
 namespace JFM {
 
@@ -22,7 +22,8 @@ namespace JFM {
     }
 
     bool TextureConfigManager::LoadConfigFromFile(const std::string& configPath) {
-        if (!std::filesystem::exists(configPath)) {
+        std::ifstream testFile(configPath);
+        if (!testFile.good()) {
             // 如果文件不存在，初始化默认配置并创建示例文件
             InitializeDefaultConfigs();
             SaveConfigToFile(configPath);
@@ -136,8 +137,9 @@ namespace JFM {
             spec = GetConfig(configName);
         } else {
             // 根据文件扩展名选择默认配置
-            std::filesystem::path filePath(path);
-            spec = GetDefaultConfigForType(filePath.extension().string());
+            size_t dotPos = path.find_last_of('.');
+            std::string extension = (dotPos != std::string::npos) ? path.substr(dotPos) : "";
+            spec = GetDefaultConfigForType(extension);
         }
 
         return Texture2D::Create(path, spec);
@@ -149,11 +151,7 @@ namespace JFM {
 
     bool TextureConfigManager::SaveConfigToFile(const std::string& configPath) const {
         try {
-            // 确保目录存在
-            std::filesystem::path filePath(configPath);
-            if (filePath.has_parent_path()) {
-                std::filesystem::create_directories(filePath.parent_path());
-            }
+            // 直接尝试创建文件，简化目录处理
 
             std::ofstream file(configPath);
             if (!file.is_open()) {

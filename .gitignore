@@ -1,0 +1,37 @@
+# Build directories
+Build/
+build/
+*.o
+*.a
+*.dylib
+*.so
+*.dll
+*.exe
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Third party binaries (if needed)
+# ThirdParty/*/bin/
+# ThirdParty/*/lib/

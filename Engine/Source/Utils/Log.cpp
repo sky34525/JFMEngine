@@ -1,7 +1,8 @@
 #include "JFMEngine/Utils/Log.h"
-#include <filesystem>
 #include <iostream>
 #include <iomanip>
+#include <fstream>
+#include <sys/stat.h>
 
 namespace JFM {
 
@@ -81,9 +82,15 @@ std::string ConsoleSink::get_level_string(LogLevel level) {
 
 FileSink::FileSink(const std::string& filename) {
     // 确保目录存在
-    std::filesystem::path filepath(filename);
-    if (filepath.has_parent_path()) {
-        std::filesystem::create_directories(filepath.parent_path());
+    size_t lastSlash = filename.find_last_of("/\\");
+    if (lastSlash != std::string::npos) {
+        std::string directory = filename.substr(0, lastSlash);
+        // 简化处理：尝试创建单级目录
+        #ifdef _WIN32
+            _mkdir(directory.c_str());
+        #else
+            mkdir(directory.c_str(), 0755);
+        #endif
     }
 
     file_.open(filename, std::ios::app);
@@ -142,9 +149,15 @@ RotatingFileSink::RotatingFileSink(const std::string& base_filename, size_t max_
     : base_filename_(base_filename), max_size_(max_size), max_files_(max_files), current_size_(0) {
 
     // 确保目录存在
-    std::filesystem::path filepath(base_filename);
-    if (filepath.has_parent_path()) {
-        std::filesystem::create_directories(filepath.parent_path());
+    size_t lastSlash = base_filename.find_last_of("/\\");
+    if (lastSlash != std::string::npos) {
+        std::string directory = base_filename.substr(0, lastSlash);
+        // 简化处理：尝试创建单级目录
+        #ifdef _WIN32
+            _mkdir(directory.c_str());
+        #else
+            mkdir(directory.c_str(), 0755);
+        #endif
     }
 
     file_.open(base_filename_, std::ios::app);
@@ -209,17 +222,21 @@ void RotatingFileSink::rotate_file() {
         std::string old_name = base_filename_ + "." + std::to_string(i);
         std::string new_name = base_filename_ + "." + std::to_string(i + 1);
 
-        if (std::filesystem::exists(old_name)) {
+        std::ifstream testFile(old_name);
+        if (testFile.good()) {
+            testFile.close();
             if (i == max_files_ - 1) {
-                std::filesystem::remove(new_name); // 删除最老的文件
+                std::remove(new_name.c_str()); // 删除最老的文件
             }
-            std::filesystem::rename(old_name, new_name);
+            std::rename(old_name.c_str(), new_name.c_str());
         }
     }
 
     // 将当前文件重命名为 .1
-    if (std::filesystem::exists(base_filename_)) {
-        std::filesystem::rename(base_filename_, base_filename_ + ".1");
+    std::ifstream testFile(base_filename_);
+    if (testFile.good()) {
+        testFile.close();
+        std::rename(base_filename_.c_str(), (base_filename_ + ".1").c_str());
     }
 
     // 创建新文件

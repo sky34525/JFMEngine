@@ -229,7 +229,7 @@ namespace JFM {
 
     void Animator::SetTime(float time) {
         if (m_CurrentClip) {
-            m_CurrentTime = std::clamp(time, 0.0f, m_CurrentClip->GetDuration());
+            m_CurrentTime = glm::clamp(time, 0.0f, m_CurrentClip->GetDuration());
         }
     }
 

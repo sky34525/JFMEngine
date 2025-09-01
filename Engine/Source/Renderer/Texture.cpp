@@ -1,5 +1,5 @@
 #include "JFMEngine/Renderer/Texture.h"
-#include <filesystem>
+#include <string>
 #include <iostream>
 
 namespace JFM {
@@ -55,7 +55,13 @@ namespace JFM {
     }
 
     std::string TextureLibrary::ExtractName(const std::string& filepath) {
-        return std::filesystem::path(filepath).stem().string();
+        size_t lastSlash = filepath.find_last_of("/\\");
+        size_t lastDot = filepath.find_last_of('.');
+        
+        size_t start = (lastSlash != std::string::npos) ? lastSlash + 1 : 0;
+        size_t end = (lastDot != std::string::npos && lastDot > start) ? lastDot : filepath.length();
+        
+        return filepath.substr(start, end - start);
     }
 
 }
