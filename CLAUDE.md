@@ -4,32 +4,46 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 构建系统
 
-JFMEngine 使用 CMake 构建系统，支持 Debug 和 Release 模式。
+JFMEngine 使用 CMake 3.20+ 构建系统，支持 Debug 和 Release 模式。
+
+### 依赖安装 (macOS)
+```bash
+brew install cmake glfw assimp
+```
 
 ### 主要构建命令
 ```bash
-# 创建构建目录并配置 (Debug模式)
-mkdir -p Build/Debug && cd Build/Debug
-cmake -DCMAKE_BUILD_TYPE=Debug ../..
+# 使用VS Code CMake Tools 扩展（推荐）
+# Cmd+Shift+P -> CMake: Configure
+# Cmd+Shift+P -> CMake: Build
 
-# 构建项目
-make -j$(sysctl -n hw.ncpu)
+# 或使用命令行
+mkdir -p build && cd build
+cmake -DCMAKE_BUILD_TYPE=Debug ..
+cmake --build . --parallel $(sysctl -n hw.ncpu)
 
-# Release 模式构建
-mkdir -p Build/Release && cd Build/Release  
-cmake -DCMAKE_BUILD_TYPE=Release ../..
-make -j$(sysctl -n hw.ncpu)
+# Ninja 构建系统（更快）
+cmake -GNinja -DCMAKE_BUILD_TYPE=Debug ..
+ninja
 
 # 清理构建文件
-rm -rf Build/
+rm -rf build/ Build/
 ```
 
 ### 运行示例程序
 ```bash
-# 在构建完成后运行示例
-cd Build/Debug && ./IntegratedRenderingDemo
-cd Build/Debug && ./Simple3DDemo  
-cd Build/Debug && ./AnimalAnimationDemo
+# 从构建目录运行（重要：从构建目录运行确保资源路径正确）
+cd build && ./IntegratedRenderingDemo
+cd build && ./Simple3DDemo  
+cd build && ./ModelRenderDemo
+
+# 或使用VS Code调试配置（F5）
+```
+
+### 测试构建
+```bash
+cmake -DBUILD_TESTS=ON ..
+cmake --build .
 ```
 
 ## 代码架构
@@ -51,13 +65,10 @@ JFMEngine 是一个现代化的 C++20 游戏引擎，采用 Layer-based 分层�
 - **Material**: 增强的材质系统，支持多种渲染属性
 - **Mesh/Model**: 3D模型加载和渲染，集成 Assimp 库
 
-### 新增功能模块
-- **Skybox**: 天空盒渲染系统
-- **Shadow**: 阴影渲染系统
-- **ParticleSystem**: 粒子效果系统
-- **PostProcessing**: 后处理效果管线
-- **Terrain**: 地形渲染系统
-- **AudioSystem**: 完善的音频管理系统
+### 可用示例程序
+- **IntegratedRenderingDemo**: 综合渲染演示，展示光照、材质、模型加载
+- **Simple3DDemo**: 简单3D场景演示
+- **ModelRenderDemo**: 3D模型渲染演示，使用Assimp加载模型
 
 ### 关键目录结构
 - `Engine/Include/JFMEngine/`: 按功能模块组织的公共头文件接口
@@ -84,15 +95,47 @@ JFMEngine 是一个现代化的 C++20 游戏引擎，采用 Layer-based 分层�
 使用系统包管理器安装依赖（macOS 使用 Homebrew）
 
 ### Layer-based 应用架构
-客户端应用程序需要实现 `JFM::CreateApplication()` 函数来创建自定义应用程序类。现代化的应用程序通过继承 `Layer` 类实现：
+客户端应用程序需要实现 `JFM::CreateApplication()` 函数来创建自定义应用程序类。Layer-based 应用通过继承 `Layer` 类实现：
 
 ```cpp
 class RenderDemoLayer : public Layer {
 public:
-    virtual void OnAttach() override { /* 初始化逻辑 */ }
-    virtual void OnRender() override { /* 渲染逻辑 */ }
-    virtual void OnUpdate(float deltaTime) override { /* 更新逻辑 */ }
+    virtual void OnAttach() override { 
+        // 初始化渲染资源、相机、材质等
+        m_CameraController = std::make_shared<CameraController>(...);
+    }
+    virtual void OnRender() override { 
+        // 渲染3D对象、应用光照、处理材质
+        Renderer3D::BeginScene(m_CameraController->GetCamera());
+        // ... 渲染调用
+        Renderer3D::EndScene();
+    }
+    virtual void OnUpdate(float deltaTime) override { 
+        // 更新相机位置、动画状态、物理模拟
+        m_CameraController->OnUpdate(deltaTime);
+    }
+    virtual void OnEvent(Event& event) override {
+        // 处理输入事件、窗口事件
+        m_CameraController->OnEvent(event);
+    }
 };
+```
+
+### 客户端应用程序入口
+```cpp
+#include <JFMEngine/JFMEngine.h>
+
+class MyApp : public JFM::Application {
+public:
+    MyApp() {
+        PushLayer(std::make_shared<RenderDemoLayer>());
+    }
+};
+
+// 必须实现此函数
+JFM::Application* JFM::CreateApplication() {
+    return new MyApp();
+}
 ```
 
 ### 光照系统使用
@@ -134,12 +177,33 @@ auto sphereGeometry = GeometryGenerator::CreateSphere(0.5f, 20, 20);
   - 键盘移动控制需要自行实现 OnKeyPressed/OnKeyReleased 方法
   - 默认相机位置: `(0.0f, 0.0f, 3.0f)`, Yaw: -90°, Pitch: 0°
 
-### 架构演进说明
-引擎已从复杂的 ECS (Entity Component System) 架构转向更简化的 Layer-based 架构：
-- **简化性**: 降低了学习曲线和使用复杂度
-- **模块化**: 清晰的功能模块划分
-- **扩展性**: Layer 系统便于添加新功能
-- **性能**: 减少抽象层级，提高渲染性能
+### 开发工作流程
 
-### 测试
-当前项目包含测试目录结构，测试构建需要通过 `-DBUILD_TESTS=ON` CMake 选项启用。
+#### 添加新功能
+1. **渲染功能**: 在 `Engine/Source/Renderer/` 中添加实现，头文件放入 `Engine/Include/JFMEngine/Renderer/`
+2. **核心功能**: 在 `Engine/Source/Core/` 中添加实现
+3. **示例程序**: 在 `Examples/` 中创建新目录，添加 CMakeLists.txt
+
+#### 调试渲染问题
+1. **检查相机设置**: 确保透视投影参数正确，位置合理
+2. **验证制服变量**: OpenGLShader 会输出未找到的制服变量警告
+3. **着色器调试**: 创建简化的测试着色器隔离问题
+4. **VAO绑定**: 确保VAO绑定后正确解绑
+
+#### 性能注意事项
+- 使用 `GeometryGenerator` 缓存几何体数据
+- `LightingManager` 是单例，避免重复初始化
+- 批量渲染相同材质的对象
+- 在Release模式下测试最终性能
+
+### 架构演进说明
+引擎从 ECS 架构转向 Layer-based 架构：
+- **简化性**: 降低学习曲线，更直观的代码结构
+- **专注性**: Layer 系统专注于特定功能模块
+- **调试友好**: 更容易追踪问题和性能瓶颈
+- **渐进式**: 可以逐步添加复杂功能而不影响核心架构
+
+### 重要实现细节
+- **内存管理**: 使用智能指针，避免裸指针
+- **资源加载**: 支持相对路径资源加载，从构建目录运行程序
+- **事件传播**: 事件系统支持Layer级别的事件处理和传播控制
